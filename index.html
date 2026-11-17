@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Pokédex</h1>
+    </header>
+
+    <div class="pokedex-layout">
+        <!-- LEFT: Selected Pokémon Detailed View (Appears on exact 1-match search) -->
+        <section id="info-panel" class="info-panel hidden">
+            <h2>Select or search for a single Pokémon</h2>
+        </section>
+
+        <!-- RIGHT: Interactive Sortable List (50% Width) -->
+        <section class="list-panel">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search Pokémon...">
+                
+                <div class="filter-row">
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="search-field" value="number" checked> Number</label>
+                        <label><input type="checkbox" name="search-field" value="name" checked> Name</label>
+                        <label><input type="checkbox" name="search-field" value="type"> Type</label>
+                        <label><input type="checkbox" name="search-field" value="description"> Description</label>
+                    </div>
+
+                    <!-- Dark Mode Toggle Switch -->
+                    <label class="theme-switch">
+                        <input type="checkbox" id="dark-mode-toggle" checked>
+                        <span class="slider">Dark Mode</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <table id="pokemon-table">
+                    <thead>
+                        <tr>
+                            <th data-sort="id">Dex #</th>
+                            <th style="width: 50px;"> </th>
+                            <th data-sort="name">Name</th>
+                            <th data-sort="type">Type</th>
+                            <th data-sort="height">Height</th>
+                            <th data-sort="weight">Weight</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                        <!-- Table rows populated via JS -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

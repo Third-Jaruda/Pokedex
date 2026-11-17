@@ -1,0 +1,372 @@
+:root {
+    --bg-color: #f5f5f7;
+    --card-bg: #ffffff;
+    --text-color: #333333;
+    --primary: #3b5cca;
+    --accent: #ff0505;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    color: var(--accent);
+    text-shadow: 2px 2px var(--primary);
+    margin: 0;
+}
+
+/* Split Layout */
+.pokedex-layout {
+    display: flex;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 80vh;
+}
+
+/* Left Panel */
+.info-panel {
+    flex: 0 0 40%;
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.info-panel.hidden {
+    border: 2px dashed #ccc;
+    color: #888;
+}
+
+.pokemon-details img {
+    width: 180px;
+    height: 180px;
+}
+
+.pokemon-details h2 {
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+/* Right Panel (50% Width) */
+.list-panel {
+    flex: 0 0 60%;
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.search-container {
+    margin-bottom: 15px;
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#search-input:focus {
+    border-color: var(--primary);
+}
+
+.checkbox-group {
+    display: flex;
+    gap: 15px;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.table-container {
+    flex: 1;
+    overflow-y: auto;
+    border: 1px solid #eee;
+    border-radius: 6px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background-color: #fafafa;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+th:hover {
+    background-color: #f0f0f0;
+}
+
+tbody tr {
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Add this inside style.css */
+.type-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    margin: 2px;
+}
+
+/* Add this inside style.css */
+.evolution-section {
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.evolution-section h4 {
+    margin: 0 0 10px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.evolution-chain {
+    display: flex;
+    flex-wrap: nowrap; /* Forces everything to stay on one single horizontal row */
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    overflow-x: auto; /* Adds a clean scrollbar if the screen is too narrow */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.evo-card {
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 6px;
+    flex: 1; /* Automatically distributes space equally across cards */
+    min-width: 65px; /* Keeps cards from shrinking too small */
+    max-width: 90px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+    box-sizing: border-box;
+}
+
+.evo-card:hover {
+    transform: translateY(-3px);
+    background: #f0f0f0;
+    border-color: var(--primary);
+}
+
+.evo-card img {
+    width: 45px;
+    height: 45px;
+}
+
+.evo-card span {
+    display: block;
+    font-size: 0.7rem;
+    color: #777;
+}
+
+.evo-card p {
+    margin: 2px 0 0 0;
+    font-size: 0.75rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Keeps long names from breaking the layout */
+}
+
+/* Add this inside style.css */
+.table-sprite {
+    width: 36px;
+    height: 36px;
+    vertical-align: middle;
+}
+
+table td, table th {
+    vertical-align: middle; /* Ensures text and images align nicely vertically */
+}
+
+:root {
+    --bg-color: #f5f5f7;
+    --card-bg: #ffffff;
+    --text-color: #333333;
+    --primary: #3b5cca;
+    --accent: #ffcb05;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --border-color: #ccc;
+    --th-bg: #fafafa;
+    --row-hover: #f8f9fa;
+}
+
+/* Dark Theme Variables */
+body.dark-theme {
+    --bg-color: #282828;
+    --card-bg: #2d2d2d;
+    --text-color: #f5f5f7;
+    --primary: #6c88ee;
+    --accent: #ffdb4d;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    --border-color: #444;
+    --th-bg: #333333;
+    --row-hover: #383838;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Panel Backgrounds adapting to theme */
+.info-panel, .list-panel {
+    background: var(--card-bg);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#search-input {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    border: 2px solid var(--border-color);
+}
+
+/* Filter Row (Checkboxes on Left, Toggle on Far Right) */
+.filter-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.checkbox-group {
+    display: flex;
+    gap: 15px;
+    font-size: 0.85rem;
+    color: var(--text-color);
+}
+
+/* Toggle Switch Styles */
+.theme-switch {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.theme-switch input {
+    accent-color: var(--primary);
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+/* Table updates for Dark Theme */
+.table-container {
+    border: 1px solid var(--border-color);
+}
+
+th {
+    background-color: var(--th-bg);
+    color: var(--text-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+td {
+    border-bottom: 1px solid var(--border-color);
+}
+
+th:hover {
+    background-color: var(--row-hover);
+}
+
+tbody tr:hover {
+    background-color: var(--row-hover);
+}
+
+.evolution-section {
+    border-top: 1px solid var(--border-color);
+}
+
+.evo-card {
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+}
+
+.evo-card:hover {
+    background: var(--row-hover);
+}
+
+/* Custom Scrollbar for Modern Browsers (Chrome, Edge, Safari) */
+.table-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.table-container::-webkit-scrollbar-track {
+    background: var(--bg-color);
+    border-radius: 4px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background-color: var(--border-color);
+    border-radius: 4px;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+    background-color: var(--primary);
+}
