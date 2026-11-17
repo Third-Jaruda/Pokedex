@@ -1,0 +1,7 @@
+Thisis a new file
+
+This is a line that contains a good code
+
+This is a line that contains sadjaskd bad code
+
+This is a Good Code
