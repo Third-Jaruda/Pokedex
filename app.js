@@ -111,7 +111,7 @@ function showSinglePokemon(pokemon) {
             
             const evoFormattedId = String(evoPokemon.id).padStart(3, '0');
             return `
-                <div class="evo-card" onclick="selectPokemonById(${evoPokemon.id})">
+                <div class="evo-card" onclick="selectPokemonById('${evoPokemon.id}')">
                     <img src="${evoPokemon.sprite}" alt="${evoPokemon.name}">
                     <span>#${evoFormattedId}</span>
                     <p>${evoPokemon.name}</p>
@@ -146,10 +146,10 @@ function showSinglePokemon(pokemon) {
 function selectPokemonById(inputID) {
     // 1. Convert input to a number to strip any existing leading zeros, then pad it back to 3 digits (e.g., 1 or "1" or "001" all become "001")
     const formattedId = String(Number(inputID)).padStart(3, '0');
-
+    
     // 2. Find the pokemon matching the standardized ID string
     const targetPokemon = allPokemon.find(p => p.id === formattedId);
-
+    
     if (targetPokemon) {
         showSinglePokemon(targetPokemon);
         console.log("Found:", targetPokemon.name);
