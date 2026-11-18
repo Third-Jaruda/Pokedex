@@ -1,0 +1,8666 @@
+[
+  {
+    "id": "001",
+    "name": "bulbasaur",
+    "type": "grass, poison",
+    "height": "0.7 m",
+    "weight": "6.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/001.png",
+    "evolutionChain": [
+      "001",
+      "002",
+      "003"
+    ]
+  },
+  {
+    "id": "002",
+    "name": "ivysaur",
+    "type": "grass, poison",
+    "height": "1.0 m",
+    "weight": "13.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/002.png",
+    "evolutionChain": [
+      "001",
+      "002",
+      "003"
+    ]
+  },
+  {
+    "id": "003",
+    "name": "venusaur",
+    "type": "grass, poison",
+    "height": "2.0 m",
+    "weight": "100.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/003.png",
+    "evolutionChain": [
+      "001",
+      "002",
+      "003"
+    ]
+  },
+  {
+    "id": "004",
+    "name": "charmander",
+    "type": "fire",
+    "height": "0.6 m",
+    "weight": "8.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/004.png",
+    "evolutionChain": [
+      "004",
+      "005",
+      "006"
+    ]
+  },
+  {
+    "id": "005",
+    "name": "charmeleon",
+    "type": "fire",
+    "height": "1.1 m",
+    "weight": "19.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/005.png",
+    "evolutionChain": [
+      "004",
+      "005",
+      "006"
+    ]
+  },
+  {
+    "id": "006",
+    "name": "charizard",
+    "type": "fire, flying",
+    "height": "1.7 m",
+    "weight": "90.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/006.png",
+    "evolutionChain": [
+      "004",
+      "005",
+      "006"
+    ]
+  },
+  {
+    "id": "007",
+    "name": "squirtle",
+    "type": "water",
+    "height": "0.5 m",
+    "weight": "9.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/007.png",
+    "evolutionChain": [
+      "007",
+      "008",
+      "009"
+    ]
+  },
+  {
+    "id": "008",
+    "name": "wartortle",
+    "type": "water",
+    "height": "1.0 m",
+    "weight": "22.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/008.png",
+    "evolutionChain": [
+      "007",
+      "008",
+      "009"
+    ]
+  },
+  {
+    "id": "009",
+    "name": "blastoise",
+    "type": "water",
+    "height": "1.6 m",
+    "weight": "85.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/009.png",
+    "evolutionChain": [
+      "007",
+      "008",
+      "009"
+    ]
+  },
+  {
+    "id": "010",
+    "name": "caterpie",
+    "type": "bug",
+    "height": "0.3 m",
+    "weight": "2.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/010.png",
+    "evolutionChain": [
+      "010",
+      "011",
+      "012"
+    ]
+  },
+  {
+    "id": "011",
+    "name": "metapod",
+    "type": "bug",
+    "height": "0.7 m",
+    "weight": "9.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/011.png",
+    "evolutionChain": [
+      "010",
+      "011",
+      "012"
+    ]
+  },
+  {
+    "id": "012",
+    "name": "butterfree",
+    "type": "bug, flying",
+    "height": "1.1 m",
+    "weight": "32.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/012.png",
+    "evolutionChain": [
+      "010",
+      "011",
+      "012"
+    ]
+  },
+  {
+    "id": "013",
+    "name": "weedle",
+    "type": "bug, poison",
+    "height": "0.3 m",
+    "weight": "3.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/013.png",
+    "evolutionChain": [
+      "013",
+      "014",
+      "015"
+    ]
+  },
+  {
+    "id": "014",
+    "name": "kakuna",
+    "type": "bug, poison",
+    "height": "0.6 m",
+    "weight": "10.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/014.png",
+    "evolutionChain": [
+      "013",
+      "014",
+      "015"
+    ]
+  },
+  {
+    "id": "015",
+    "name": "beedrill",
+    "type": "bug, poison",
+    "height": "1.0 m",
+    "weight": "29.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/015.png",
+    "evolutionChain": [
+      "013",
+      "014",
+      "015"
+    ]
+  },
+  {
+    "id": "016",
+    "name": "pidgey",
+    "type": "normal, flying",
+    "height": "0.3 m",
+    "weight": "1.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/016.png",
+    "evolutionChain": [
+      "016",
+      "017",
+      "018"
+    ]
+  },
+  {
+    "id": "017",
+    "name": "pidgeotto",
+    "type": "normal, flying",
+    "height": "1.1 m",
+    "weight": "30.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/017.png",
+    "evolutionChain": [
+      "016",
+      "017",
+      "018"
+    ]
+  },
+  {
+    "id": "018",
+    "name": "pidgeot",
+    "type": "normal, flying",
+    "height": "1.5 m",
+    "weight": "39.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/018.png",
+    "evolutionChain": [
+      "016",
+      "017",
+      "018"
+    ]
+  },
+  {
+    "id": "019",
+    "name": "rattata",
+    "type": "normal",
+    "height": "0.3 m",
+    "weight": "3.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/019.png",
+    "evolutionChain": [
+      "019",
+      "020"
+    ]
+  },
+  {
+    "id": "020",
+    "name": "raticate",
+    "type": "normal",
+    "height": "0.7 m",
+    "weight": "18.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/020.png",
+    "evolutionChain": [
+      "019",
+      "020"
+    ]
+  },
+  {
+    "id": "021",
+    "name": "spearow",
+    "type": "normal, flying",
+    "height": "0.3 m",
+    "weight": "2.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/021.png",
+    "evolutionChain": [
+      "021",
+      "022"
+    ]
+  },
+  {
+    "id": "022",
+    "name": "fearow",
+    "type": "normal, flying",
+    "height": "1.2 m",
+    "weight": "38.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/022.png",
+    "evolutionChain": [
+      "021",
+      "022"
+    ]
+  },
+  {
+    "id": "023",
+    "name": "ekans",
+    "type": "poison",
+    "height": "2.0 m",
+    "weight": "6.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/023.png",
+    "evolutionChain": [
+      "023",
+      "024"
+    ]
+  },
+  {
+    "id": "024",
+    "name": "arbok",
+    "type": "poison",
+    "height": "3.5 m",
+    "weight": "65.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/024.png",
+    "evolutionChain": [
+      "023",
+      "024"
+    ]
+  },
+  {
+    "id": "025",
+    "name": "pikachu",
+    "type": "electric",
+    "height": "0.4 m",
+    "weight": "6.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/025.png",
+    "evolutionChain": [
+      "172",
+      "025",
+      "026"
+    ]
+  },
+  {
+    "id": "026",
+    "name": "raichu",
+    "type": "electric",
+    "height": "0.8 m",
+    "weight": "30.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/026.png",
+    "evolutionChain": [
+      "172",
+      "025",
+      "026"
+    ]
+  },
+  {
+    "id": "027",
+    "name": "sandshrew",
+    "type": "ground",
+    "height": "0.6 m",
+    "weight": "12.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/027.png",
+    "evolutionChain": [
+      "027",
+      "028"
+    ]
+  },
+  {
+    "id": "028",
+    "name": "sandslash",
+    "type": "ground",
+    "height": "1.0 m",
+    "weight": "29.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/028.png",
+    "evolutionChain": [
+      "027",
+      "028"
+    ]
+  },
+  {
+    "id": "029",
+    "name": "nidoran-f",
+    "type": "poison",
+    "height": "0.4 m",
+    "weight": "7.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/029.png",
+    "evolutionChain": [
+      "029",
+      "030",
+      "031"
+    ]
+  },
+  {
+    "id": "030",
+    "name": "nidorina",
+    "type": "poison",
+    "height": "0.8 m",
+    "weight": "20.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/030.png",
+    "evolutionChain": [
+      "029",
+      "030",
+      "031"
+    ]
+  },
+  {
+    "id": "031",
+    "name": "nidoqueen",
+    "type": "poison, ground",
+    "height": "1.3 m",
+    "weight": "60.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/031.png",
+    "evolutionChain": [
+      "029",
+      "030",
+      "031"
+    ]
+  },
+  {
+    "id": "032",
+    "name": "nidoran-m",
+    "type": "poison",
+    "height": "0.5 m",
+    "weight": "9.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/032.png",
+    "evolutionChain": [
+      "032",
+      "033",
+      "034"
+    ]
+  },
+  {
+    "id": "033",
+    "name": "nidorino",
+    "type": "poison",
+    "height": "0.9 m",
+    "weight": "19.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/033.png",
+    "evolutionChain": [
+      "032",
+      "033",
+      "034"
+    ]
+  },
+  {
+    "id": "034",
+    "name": "nidoking",
+    "type": "poison, ground",
+    "height": "1.4 m",
+    "weight": "62.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/034.png",
+    "evolutionChain": [
+      "032",
+      "033",
+      "034"
+    ]
+  },
+  {
+    "id": "035",
+    "name": "clefairy",
+    "type": "fairy",
+    "height": "0.6 m",
+    "weight": "7.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/035.png",
+    "evolutionChain": [
+      "173",
+      "035",
+      "036"
+    ]
+  },
+  {
+    "id": "036",
+    "name": "clefable",
+    "type": "fairy",
+    "height": "1.3 m",
+    "weight": "40.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/036.png",
+    "evolutionChain": [
+      "173",
+      "035",
+      "036"
+    ]
+  },
+  {
+    "id": "037",
+    "name": "vulpix",
+    "type": "fire",
+    "height": "0.6 m",
+    "weight": "9.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/037.png",
+    "evolutionChain": [
+      "037",
+      "038"
+    ]
+  },
+  {
+    "id": "038",
+    "name": "ninetales",
+    "type": "fire",
+    "height": "1.1 m",
+    "weight": "19.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/038.png",
+    "evolutionChain": [
+      "037",
+      "038"
+    ]
+  },
+  {
+    "id": "039",
+    "name": "jigglypuff",
+    "type": "normal, fairy",
+    "height": "0.5 m",
+    "weight": "5.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/039.png",
+    "evolutionChain": [
+      "174",
+      "039",
+      "040"
+    ]
+  },
+  {
+    "id": "040",
+    "name": "wigglytuff",
+    "type": "normal, fairy",
+    "height": "1.0 m",
+    "weight": "12.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/040.png",
+    "evolutionChain": [
+      "174",
+      "039",
+      "040"
+    ]
+  },
+  {
+    "id": "041",
+    "name": "zubat",
+    "type": "poison, flying",
+    "height": "0.8 m",
+    "weight": "7.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/041.png",
+    "evolutionChain": [
+      "041",
+      "042",
+      "169"
+    ]
+  },
+  {
+    "id": "042",
+    "name": "golbat",
+    "type": "poison, flying",
+    "height": "1.6 m",
+    "weight": "55.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/042.png",
+    "evolutionChain": [
+      "041",
+      "042",
+      "169"
+    ]
+  },
+  {
+    "id": "043",
+    "name": "oddish",
+    "type": "grass, poison",
+    "height": "0.5 m",
+    "weight": "5.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/043.png",
+    "evolutionChain": [
+      "043",
+      "044",
+      "045",
+      "182"
+    ]
+  },
+  {
+    "id": "044",
+    "name": "gloom",
+    "type": "grass, poison",
+    "height": "0.8 m",
+    "weight": "8.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/044.png",
+    "evolutionChain": [
+      "043",
+      "044",
+      "045",
+      "182"
+    ]
+  },
+  {
+    "id": "045",
+    "name": "vileplume",
+    "type": "grass, poison",
+    "height": "1.2 m",
+    "weight": "18.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/045.png",
+    "evolutionChain": [
+      "043",
+      "044",
+      "045",
+      "182"
+    ]
+  },
+  {
+    "id": "046",
+    "name": "paras",
+    "type": "bug, grass",
+    "height": "0.3 m",
+    "weight": "5.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/046.png",
+    "evolutionChain": [
+      "046",
+      "047"
+    ]
+  },
+  {
+    "id": "047",
+    "name": "parasect",
+    "type": "bug, grass",
+    "height": "1.0 m",
+    "weight": "29.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/047.png",
+    "evolutionChain": [
+      "046",
+      "047"
+    ]
+  },
+  {
+    "id": "048",
+    "name": "venonat",
+    "type": "bug, poison",
+    "height": "1.0 m",
+    "weight": "30.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/048.png",
+    "evolutionChain": [
+      "048",
+      "049"
+    ]
+  },
+  {
+    "id": "049",
+    "name": "venomoth",
+    "type": "bug, poison",
+    "height": "1.5 m",
+    "weight": "12.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/049.png",
+    "evolutionChain": [
+      "048",
+      "049"
+    ]
+  },
+  {
+    "id": "050",
+    "name": "diglett",
+    "type": "ground",
+    "height": "0.2 m",
+    "weight": "0.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/050.png",
+    "evolutionChain": [
+      "050",
+      "051"
+    ]
+  },
+  {
+    "id": "051",
+    "name": "dugtrio",
+    "type": "ground",
+    "height": "0.7 m",
+    "weight": "33.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/051.png",
+    "evolutionChain": [
+      "050",
+      "051"
+    ]
+  },
+  {
+    "id": "052",
+    "name": "meowth",
+    "type": "normal",
+    "height": "0.4 m",
+    "weight": "4.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/052.png",
+    "evolutionChain": [
+      "052",
+      "053"
+    ]
+  },
+  {
+    "id": "053",
+    "name": "persian",
+    "type": "normal",
+    "height": "1.0 m",
+    "weight": "32.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/053.png",
+    "evolutionChain": [
+      "052",
+      "053"
+    ]
+  },
+  {
+    "id": "054",
+    "name": "psyduck",
+    "type": "water",
+    "height": "0.8 m",
+    "weight": "19.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/054.png",
+    "evolutionChain": [
+      "054",
+      "055"
+    ]
+  },
+  {
+    "id": "055",
+    "name": "golduck",
+    "type": "water",
+    "height": "1.7 m",
+    "weight": "76.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/055.png",
+    "evolutionChain": [
+      "054",
+      "055"
+    ]
+  },
+  {
+    "id": "056",
+    "name": "mankey",
+    "type": "fighting",
+    "height": "0.5 m",
+    "weight": "28.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/056.png",
+    "evolutionChain": [
+      "056",
+      "057"
+    ]
+  },
+  {
+    "id": "057",
+    "name": "primeape",
+    "type": "fighting",
+    "height": "1.0 m",
+    "weight": "32.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/057.png",
+    "evolutionChain": [
+      "056",
+      "057"
+    ]
+  },
+  {
+    "id": "058",
+    "name": "growlithe",
+    "type": "fire",
+    "height": "0.7 m",
+    "weight": "19.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/058.png",
+    "evolutionChain": [
+      "058",
+      "059"
+    ]
+  },
+  {
+    "id": "059",
+    "name": "arcanine",
+    "type": "fire",
+    "height": "1.9 m",
+    "weight": "155.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/059.png",
+    "evolutionChain": [
+      "058",
+      "059"
+    ]
+  },
+  {
+    "id": "060",
+    "name": "poliwag",
+    "type": "water",
+    "height": "0.6 m",
+    "weight": "12.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/060.png",
+    "evolutionChain": [
+      "060",
+      "061",
+      "062",
+      "186"
+    ]
+  },
+  {
+    "id": "061",
+    "name": "poliwhirl",
+    "type": "water",
+    "height": "1.0 m",
+    "weight": "20.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/061.png",
+    "evolutionChain": [
+      "060",
+      "061",
+      "062",
+      "186"
+    ]
+  },
+  {
+    "id": "062",
+    "name": "poliwrath",
+    "type": "water, fighting",
+    "height": "1.3 m",
+    "weight": "54.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/062.png",
+    "evolutionChain": [
+      "060",
+      "061",
+      "062",
+      "186"
+    ]
+  },
+  {
+    "id": "063",
+    "name": "abra",
+    "type": "psychic",
+    "height": "0.9 m",
+    "weight": "19.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/063.png",
+    "evolutionChain": [
+      "063",
+      "064",
+      "065"
+    ]
+  },
+  {
+    "id": "064",
+    "name": "kadabra",
+    "type": "psychic",
+    "height": "1.3 m",
+    "weight": "56.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/064.png",
+    "evolutionChain": [
+      "063",
+      "064",
+      "065"
+    ]
+  },
+  {
+    "id": "065",
+    "name": "alakazam",
+    "type": "psychic",
+    "height": "1.5 m",
+    "weight": "48.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/065.png",
+    "evolutionChain": [
+      "063",
+      "064",
+      "065"
+    ]
+  },
+  {
+    "id": "066",
+    "name": "machop",
+    "type": "fighting",
+    "height": "0.8 m",
+    "weight": "19.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/066.png",
+    "evolutionChain": [
+      "066",
+      "067",
+      "068"
+    ]
+  },
+  {
+    "id": "067",
+    "name": "machoke",
+    "type": "fighting",
+    "height": "1.5 m",
+    "weight": "70.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/067.png",
+    "evolutionChain": [
+      "066",
+      "067",
+      "068"
+    ]
+  },
+  {
+    "id": "068",
+    "name": "machamp",
+    "type": "fighting",
+    "height": "1.6 m",
+    "weight": "130.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/068.png",
+    "evolutionChain": [
+      "066",
+      "067",
+      "068"
+    ]
+  },
+  {
+    "id": "069",
+    "name": "bellsprout",
+    "type": "grass, poison",
+    "height": "0.7 m",
+    "weight": "4.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/069.png",
+    "evolutionChain": [
+      "069",
+      "070",
+      "071"
+    ]
+  },
+  {
+    "id": "070",
+    "name": "weepinbell",
+    "type": "grass, poison",
+    "height": "1.0 m",
+    "weight": "6.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/070.png",
+    "evolutionChain": [
+      "069",
+      "070",
+      "071"
+    ]
+  },
+  {
+    "id": "071",
+    "name": "victreebel",
+    "type": "grass, poison",
+    "height": "1.7 m",
+    "weight": "15.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/071.png",
+    "evolutionChain": [
+      "069",
+      "070",
+      "071"
+    ]
+  },
+  {
+    "id": "072",
+    "name": "tentacool",
+    "type": "water, poison",
+    "height": "0.9 m",
+    "weight": "45.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/072.png",
+    "evolutionChain": [
+      "072",
+      "073"
+    ]
+  },
+  {
+    "id": "073",
+    "name": "tentacruel",
+    "type": "water, poison",
+    "height": "1.6 m",
+    "weight": "55.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/073.png",
+    "evolutionChain": [
+      "072",
+      "073"
+    ]
+  },
+  {
+    "id": "074",
+    "name": "geodude",
+    "type": "rock, ground",
+    "height": "0.4 m",
+    "weight": "20.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/074.png",
+    "evolutionChain": [
+      "074",
+      "075",
+      "076"
+    ]
+  },
+  {
+    "id": "075",
+    "name": "graveler",
+    "type": "rock, ground",
+    "height": "1.0 m",
+    "weight": "105.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/075.png",
+    "evolutionChain": [
+      "074",
+      "075",
+      "076"
+    ]
+  },
+  {
+    "id": "076",
+    "name": "golem",
+    "type": "rock, ground",
+    "height": "1.4 m",
+    "weight": "300.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/076.png",
+    "evolutionChain": [
+      "074",
+      "075",
+      "076"
+    ]
+  },
+  {
+    "id": "077",
+    "name": "ponyta",
+    "type": "fire",
+    "height": "1.0 m",
+    "weight": "30.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/077.png",
+    "evolutionChain": [
+      "077",
+      "078"
+    ]
+  },
+  {
+    "id": "078",
+    "name": "rapidash",
+    "type": "fire",
+    "height": "1.7 m",
+    "weight": "95.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/078.png",
+    "evolutionChain": [
+      "077",
+      "078"
+    ]
+  },
+  {
+    "id": "079",
+    "name": "slowpoke",
+    "type": "water, psychic",
+    "height": "1.2 m",
+    "weight": "36.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/079.png",
+    "evolutionChain": [
+      "079",
+      "080",
+      "199"
+    ]
+  },
+  {
+    "id": "080",
+    "name": "slowbro",
+    "type": "water, psychic",
+    "height": "1.6 m",
+    "weight": "78.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/080.png",
+    "evolutionChain": [
+      "079",
+      "080",
+      "199"
+    ]
+  },
+  {
+    "id": "081",
+    "name": "magnemite",
+    "type": "electric, steel",
+    "height": "0.3 m",
+    "weight": "6.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/081.png",
+    "evolutionChain": [
+      "081",
+      "082",
+      "462"
+    ]
+  },
+  {
+    "id": "082",
+    "name": "magneton",
+    "type": "electric, steel",
+    "height": "1.0 m",
+    "weight": "60.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/082.png",
+    "evolutionChain": [
+      "081",
+      "082",
+      "462"
+    ]
+  },
+  {
+    "id": "083",
+    "name": "farfetchd",
+    "type": "normal, flying",
+    "height": "0.8 m",
+    "weight": "15.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/083.png",
+    "evolutionChain": [
+      "083"
+    ]
+  },
+  {
+    "id": "084",
+    "name": "doduo",
+    "type": "normal, flying",
+    "height": "1.4 m",
+    "weight": "39.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/084.png",
+    "evolutionChain": [
+      "084",
+      "085"
+    ]
+  },
+  {
+    "id": "085",
+    "name": "dodrio",
+    "type": "normal, flying",
+    "height": "1.8 m",
+    "weight": "85.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/085.png",
+    "evolutionChain": [
+      "084",
+      "085"
+    ]
+  },
+  {
+    "id": "086",
+    "name": "seel",
+    "type": "water",
+    "height": "1.1 m",
+    "weight": "90.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/086.png",
+    "evolutionChain": [
+      "086",
+      "087"
+    ]
+  },
+  {
+    "id": "087",
+    "name": "dewgong",
+    "type": "water, ice",
+    "height": "1.7 m",
+    "weight": "120.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/087.png",
+    "evolutionChain": [
+      "086",
+      "087"
+    ]
+  },
+  {
+    "id": "088",
+    "name": "grimer",
+    "type": "poison",
+    "height": "0.9 m",
+    "weight": "30.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/088.png",
+    "evolutionChain": [
+      "088",
+      "089"
+    ]
+  },
+  {
+    "id": "089",
+    "name": "muk",
+    "type": "poison",
+    "height": "1.2 m",
+    "weight": "30.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/089.png",
+    "evolutionChain": [
+      "088",
+      "089"
+    ]
+  },
+  {
+    "id": "090",
+    "name": "shellder",
+    "type": "water",
+    "height": "0.3 m",
+    "weight": "4.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/090.png",
+    "evolutionChain": [
+      "090",
+      "091"
+    ]
+  },
+  {
+    "id": "091",
+    "name": "cloyster",
+    "type": "water, ice",
+    "height": "1.5 m",
+    "weight": "132.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/091.png",
+    "evolutionChain": [
+      "090",
+      "091"
+    ]
+  },
+  {
+    "id": "092",
+    "name": "gastly",
+    "type": "ghost, poison",
+    "height": "1.3 m",
+    "weight": "0.1 kg",
+    "description": "No description available.",
+    "sprite": "sprites/092.png",
+    "evolutionChain": [
+      "092",
+      "093",
+      "094"
+    ]
+  },
+  {
+    "id": "093",
+    "name": "haunter",
+    "type": "ghost, poison",
+    "height": "1.6 m",
+    "weight": "0.1 kg",
+    "description": "No description available.",
+    "sprite": "sprites/093.png",
+    "evolutionChain": [
+      "092",
+      "093",
+      "094"
+    ]
+  },
+  {
+    "id": "094",
+    "name": "gengar",
+    "type": "ghost, poison",
+    "height": "1.5 m",
+    "weight": "40.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/094.png",
+    "evolutionChain": [
+      "092",
+      "093",
+      "094"
+    ]
+  },
+  {
+    "id": "095",
+    "name": "onix",
+    "type": "rock, ground",
+    "height": "8.8 m",
+    "weight": "210.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/095.png",
+    "evolutionChain": [
+      "095",
+      "208"
+    ]
+  },
+  {
+    "id": "096",
+    "name": "drowzee",
+    "type": "psychic",
+    "height": "1.0 m",
+    "weight": "32.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/096.png",
+    "evolutionChain": [
+      "096",
+      "097"
+    ]
+  },
+  {
+    "id": "097",
+    "name": "hypno",
+    "type": "psychic",
+    "height": "1.6 m",
+    "weight": "75.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/097.png",
+    "evolutionChain": [
+      "096",
+      "097"
+    ]
+  },
+  {
+    "id": "098",
+    "name": "krabby",
+    "type": "water",
+    "height": "0.4 m",
+    "weight": "6.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/098.png",
+    "evolutionChain": [
+      "098",
+      "099"
+    ]
+  },
+  {
+    "id": "099",
+    "name": "kingler",
+    "type": "water",
+    "height": "1.3 m",
+    "weight": "60.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/099.png",
+    "evolutionChain": [
+      "098",
+      "099"
+    ]
+  },
+  {
+    "id": "100",
+    "name": "voltorb",
+    "type": "electric",
+    "height": "0.5 m",
+    "weight": "10.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/100.png",
+    "evolutionChain": [
+      "100",
+      "101"
+    ]
+  },
+  {
+    "id": "101",
+    "name": "electrode",
+    "type": "electric",
+    "height": "1.2 m",
+    "weight": "66.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/101.png",
+    "evolutionChain": [
+      "100",
+      "101"
+    ]
+  },
+  {
+    "id": "102",
+    "name": "exeggcute",
+    "type": "grass, psychic",
+    "height": "0.4 m",
+    "weight": "2.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/102.png",
+    "evolutionChain": [
+      "102",
+      "103"
+    ]
+  },
+  {
+    "id": "103",
+    "name": "exeggutor",
+    "type": "grass, psychic",
+    "height": "2.0 m",
+    "weight": "120.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/103.png",
+    "evolutionChain": [
+      "102",
+      "103"
+    ]
+  },
+  {
+    "id": "104",
+    "name": "cubone",
+    "type": "ground",
+    "height": "0.4 m",
+    "weight": "6.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/104.png",
+    "evolutionChain": [
+      "104",
+      "105"
+    ]
+  },
+  {
+    "id": "105",
+    "name": "marowak",
+    "type": "ground",
+    "height": "1.0 m",
+    "weight": "45.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/105.png",
+    "evolutionChain": [
+      "104",
+      "105"
+    ]
+  },
+  {
+    "id": "106",
+    "name": "hitmonlee",
+    "type": "fighting",
+    "height": "1.5 m",
+    "weight": "49.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/106.png",
+    "evolutionChain": [
+      "236",
+      "106",
+      "107",
+      "237"
+    ]
+  },
+  {
+    "id": "107",
+    "name": "hitmonchan",
+    "type": "fighting",
+    "height": "1.4 m",
+    "weight": "50.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/107.png",
+    "evolutionChain": [
+      "236",
+      "106",
+      "107",
+      "237"
+    ]
+  },
+  {
+    "id": "108",
+    "name": "lickitung",
+    "type": "normal",
+    "height": "1.2 m",
+    "weight": "65.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/108.png",
+    "evolutionChain": [
+      "108",
+      "463"
+    ]
+  },
+  {
+    "id": "109",
+    "name": "koffing",
+    "type": "poison",
+    "height": "0.6 m",
+    "weight": "1.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/109.png",
+    "evolutionChain": [
+      "109",
+      "110"
+    ]
+  },
+  {
+    "id": "110",
+    "name": "weezing",
+    "type": "poison",
+    "height": "1.2 m",
+    "weight": "9.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/110.png",
+    "evolutionChain": [
+      "109",
+      "110"
+    ]
+  },
+  {
+    "id": "111",
+    "name": "rhyhorn",
+    "type": "ground, rock",
+    "height": "1.0 m",
+    "weight": "115.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/111.png",
+    "evolutionChain": [
+      "111",
+      "112",
+      "464"
+    ]
+  },
+  {
+    "id": "112",
+    "name": "rhydon",
+    "type": "ground, rock",
+    "height": "1.9 m",
+    "weight": "120.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/112.png",
+    "evolutionChain": [
+      "111",
+      "112",
+      "464"
+    ]
+  },
+  {
+    "id": "113",
+    "name": "chansey",
+    "type": "normal",
+    "height": "1.1 m",
+    "weight": "34.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/113.png",
+    "evolutionChain": [
+      "440",
+      "113",
+      "242"
+    ]
+  },
+  {
+    "id": "114",
+    "name": "tangela",
+    "type": "grass",
+    "height": "1.0 m",
+    "weight": "35.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/114.png",
+    "evolutionChain": [
+      "114",
+      "465"
+    ]
+  },
+  {
+    "id": "115",
+    "name": "kangaskhan",
+    "type": "normal",
+    "height": "2.2 m",
+    "weight": "80.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/115.png",
+    "evolutionChain": [
+      "115"
+    ]
+  },
+  {
+    "id": "116",
+    "name": "horsea",
+    "type": "water",
+    "height": "0.4 m",
+    "weight": "8.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/116.png",
+    "evolutionChain": [
+      "116",
+      "117",
+      "230"
+    ]
+  },
+  {
+    "id": "117",
+    "name": "seadra",
+    "type": "water",
+    "height": "1.2 m",
+    "weight": "25.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/117.png",
+    "evolutionChain": [
+      "116",
+      "117",
+      "230"
+    ]
+  },
+  {
+    "id": "118",
+    "name": "goldeen",
+    "type": "water",
+    "height": "0.6 m",
+    "weight": "15.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/118.png",
+    "evolutionChain": [
+      "118",
+      "119"
+    ]
+  },
+  {
+    "id": "119",
+    "name": "seaking",
+    "type": "water",
+    "height": "1.3 m",
+    "weight": "39.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/119.png",
+    "evolutionChain": [
+      "118",
+      "119"
+    ]
+  },
+  {
+    "id": "120",
+    "name": "staryu",
+    "type": "water",
+    "height": "0.8 m",
+    "weight": "34.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/120.png",
+    "evolutionChain": [
+      "120",
+      "121"
+    ]
+  },
+  {
+    "id": "121",
+    "name": "starmie",
+    "type": "water, psychic",
+    "height": "1.1 m",
+    "weight": "80.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/121.png",
+    "evolutionChain": [
+      "120",
+      "121"
+    ]
+  },
+  {
+    "id": "122",
+    "name": "mr-mime",
+    "type": "psychic, fairy",
+    "height": "1.3 m",
+    "weight": "54.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/122.png",
+    "evolutionChain": [
+      "439",
+      "122"
+    ]
+  },
+  {
+    "id": "123",
+    "name": "scyther",
+    "type": "bug, flying",
+    "height": "1.5 m",
+    "weight": "56.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/123.png",
+    "evolutionChain": [
+      "123",
+      "212"
+    ]
+  },
+  {
+    "id": "124",
+    "name": "jynx",
+    "type": "ice, psychic",
+    "height": "1.4 m",
+    "weight": "40.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/124.png",
+    "evolutionChain": [
+      "238",
+      "124"
+    ]
+  },
+  {
+    "id": "125",
+    "name": "electabuzz",
+    "type": "electric",
+    "height": "1.1 m",
+    "weight": "30.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/125.png",
+    "evolutionChain": [
+      "239",
+      "125",
+      "466"
+    ]
+  },
+  {
+    "id": "126",
+    "name": "magmar",
+    "type": "fire",
+    "height": "1.3 m",
+    "weight": "44.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/126.png",
+    "evolutionChain": [
+      "240",
+      "126",
+      "467"
+    ]
+  },
+  {
+    "id": "127",
+    "name": "pinsir",
+    "type": "bug",
+    "height": "1.5 m",
+    "weight": "55.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/127.png",
+    "evolutionChain": [
+      "127"
+    ]
+  },
+  {
+    "id": "128",
+    "name": "tauros",
+    "type": "normal",
+    "height": "1.4 m",
+    "weight": "88.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/128.png",
+    "evolutionChain": [
+      "128"
+    ]
+  },
+  {
+    "id": "129",
+    "name": "magikarp",
+    "type": "water",
+    "height": "0.9 m",
+    "weight": "10.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/129.png",
+    "evolutionChain": [
+      "129",
+      "130"
+    ]
+  },
+  {
+    "id": "130",
+    "name": "gyarados",
+    "type": "water, flying",
+    "height": "6.5 m",
+    "weight": "235.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/130.png",
+    "evolutionChain": [
+      "129",
+      "130"
+    ]
+  },
+  {
+    "id": "131",
+    "name": "lapras",
+    "type": "water, ice",
+    "height": "2.5 m",
+    "weight": "220.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/131.png",
+    "evolutionChain": [
+      "131"
+    ]
+  },
+  {
+    "id": "132",
+    "name": "ditto",
+    "type": "normal",
+    "height": "0.3 m",
+    "weight": "4.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/132.png",
+    "evolutionChain": [
+      "132"
+    ]
+  },
+  {
+    "id": "133",
+    "name": "eevee",
+    "type": "normal",
+    "height": "0.3 m",
+    "weight": "6.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/133.png",
+    "evolutionChain": [
+      "133",
+      "134",
+      "135",
+      "136",
+      "196",
+      "197",
+      "470",
+      "471"
+    ]
+  },
+  {
+    "id": "134",
+    "name": "vaporeon",
+    "type": "water",
+    "height": "1.0 m",
+    "weight": "29.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/134.png",
+    "evolutionChain": [
+      "133",
+      "134",
+      "135",
+      "136",
+      "196",
+      "197",
+      "470",
+      "471"
+    ]
+  },
+  {
+    "id": "135",
+    "name": "jolteon",
+    "type": "electric",
+    "height": "0.8 m",
+    "weight": "24.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/135.png",
+    "evolutionChain": [
+      "133",
+      "134",
+      "135",
+      "136",
+      "196",
+      "197",
+      "470",
+      "471"
+    ]
+  },
+  {
+    "id": "136",
+    "name": "flareon",
+    "type": "fire",
+    "height": "0.9 m",
+    "weight": "25.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/136.png",
+    "evolutionChain": [
+      "133",
+      "134",
+      "135",
+      "136",
+      "196",
+      "197",
+      "470",
+      "471"
+    ]
+  },
+  {
+    "id": "137",
+    "name": "porygon",
+    "type": "normal",
+    "height": "0.8 m",
+    "weight": "36.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/137.png",
+    "evolutionChain": [
+      "137",
+      "233",
+      "474"
+    ]
+  },
+  {
+    "id": "138",
+    "name": "omanyte",
+    "type": "rock, water",
+    "height": "0.4 m",
+    "weight": "7.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/138.png",
+    "evolutionChain": [
+      "138",
+      "139"
+    ]
+  },
+  {
+    "id": "139",
+    "name": "omastar",
+    "type": "rock, water",
+    "height": "1.0 m",
+    "weight": "35.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/139.png",
+    "evolutionChain": [
+      "138",
+      "139"
+    ]
+  },
+  {
+    "id": "140",
+    "name": "kabuto",
+    "type": "rock, water",
+    "height": "0.5 m",
+    "weight": "11.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/140.png",
+    "evolutionChain": [
+      "140",
+      "141"
+    ]
+  },
+  {
+    "id": "141",
+    "name": "kabutops",
+    "type": "rock, water",
+    "height": "1.3 m",
+    "weight": "40.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/141.png",
+    "evolutionChain": [
+      "140",
+      "141"
+    ]
+  },
+  {
+    "id": "142",
+    "name": "aerodactyl",
+    "type": "rock, flying",
+    "height": "1.8 m",
+    "weight": "59.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/142.png",
+    "evolutionChain": [
+      "142"
+    ]
+  },
+  {
+    "id": "143",
+    "name": "snorlax",
+    "type": "normal",
+    "height": "2.1 m",
+    "weight": "460.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/143.png",
+    "evolutionChain": [
+      "446",
+      "143"
+    ]
+  },
+  {
+    "id": "144",
+    "name": "articuno",
+    "type": "ice, flying",
+    "height": "1.7 m",
+    "weight": "55.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/144.png",
+    "evolutionChain": [
+      "144"
+    ]
+  },
+  {
+    "id": "145",
+    "name": "zapdos",
+    "type": "electric, flying",
+    "height": "1.6 m",
+    "weight": "52.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/145.png",
+    "evolutionChain": [
+      "145"
+    ]
+  },
+  {
+    "id": "146",
+    "name": "moltres",
+    "type": "fire, flying",
+    "height": "2.0 m",
+    "weight": "60.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/146.png",
+    "evolutionChain": [
+      "146"
+    ]
+  },
+  {
+    "id": "147",
+    "name": "dratini",
+    "type": "dragon",
+    "height": "1.8 m",
+    "weight": "3.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/147.png",
+    "evolutionChain": [
+      "147",
+      "148",
+      "149"
+    ]
+  },
+  {
+    "id": "148",
+    "name": "dragonair",
+    "type": "dragon",
+    "height": "4.0 m",
+    "weight": "16.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/148.png",
+    "evolutionChain": [
+      "147",
+      "148",
+      "149"
+    ]
+  },
+  {
+    "id": "149",
+    "name": "dragonite",
+    "type": "dragon, flying",
+    "height": "2.2 m",
+    "weight": "210.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/149.png",
+    "evolutionChain": [
+      "147",
+      "148",
+      "149"
+    ]
+  },
+  {
+    "id": "150",
+    "name": "mewtwo",
+    "type": "psychic",
+    "height": "2.0 m",
+    "weight": "122.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/150.png",
+    "evolutionChain": [
+      "150"
+    ]
+  },
+  {
+    "id": "151",
+    "name": "mew",
+    "type": "psychic",
+    "height": "0.4 m",
+    "weight": "4.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/151.png",
+    "evolutionChain": [
+      "151"
+    ]
+  },
+  {
+    "id": "152",
+    "name": "chikorita",
+    "type": "grass",
+    "height": "0.9 m",
+    "weight": "6.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/152.png",
+    "evolutionChain": [
+      "152",
+      "153",
+      "154"
+    ]
+  },
+  {
+    "id": "153",
+    "name": "bayleef",
+    "type": "grass",
+    "height": "1.2 m",
+    "weight": "15.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/153.png",
+    "evolutionChain": [
+      "152",
+      "153",
+      "154"
+    ]
+  },
+  {
+    "id": "154",
+    "name": "meganium",
+    "type": "grass",
+    "height": "1.8 m",
+    "weight": "100.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/154.png",
+    "evolutionChain": [
+      "152",
+      "153",
+      "154"
+    ]
+  },
+  {
+    "id": "155",
+    "name": "cyndaquil",
+    "type": "fire",
+    "height": "0.5 m",
+    "weight": "7.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/155.png",
+    "evolutionChain": [
+      "155",
+      "156",
+      "157"
+    ]
+  },
+  {
+    "id": "156",
+    "name": "quilava",
+    "type": "fire",
+    "height": "0.9 m",
+    "weight": "19.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/156.png",
+    "evolutionChain": [
+      "155",
+      "156",
+      "157"
+    ]
+  },
+  {
+    "id": "157",
+    "name": "typhlosion",
+    "type": "fire",
+    "height": "1.7 m",
+    "weight": "79.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/157.png",
+    "evolutionChain": [
+      "155",
+      "156",
+      "157"
+    ]
+  },
+  {
+    "id": "158",
+    "name": "totodile",
+    "type": "water",
+    "height": "0.6 m",
+    "weight": "9.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/158.png",
+    "evolutionChain": [
+      "158",
+      "159",
+      "160"
+    ]
+  },
+  {
+    "id": "159",
+    "name": "croconaw",
+    "type": "water",
+    "height": "1.1 m",
+    "weight": "25.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/159.png",
+    "evolutionChain": [
+      "158",
+      "159",
+      "160"
+    ]
+  },
+  {
+    "id": "160",
+    "name": "feraligatr",
+    "type": "water",
+    "height": "2.3 m",
+    "weight": "88.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/160.png",
+    "evolutionChain": [
+      "158",
+      "159",
+      "160"
+    ]
+  },
+  {
+    "id": "161",
+    "name": "sentret",
+    "type": "normal",
+    "height": "0.8 m",
+    "weight": "6.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/161.png",
+    "evolutionChain": [
+      "161",
+      "162"
+    ]
+  },
+  {
+    "id": "162",
+    "name": "furret",
+    "type": "normal",
+    "height": "1.8 m",
+    "weight": "32.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/162.png",
+    "evolutionChain": [
+      "161",
+      "162"
+    ]
+  },
+  {
+    "id": "163",
+    "name": "hoothoot",
+    "type": "normal, flying",
+    "height": "0.7 m",
+    "weight": "21.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/163.png",
+    "evolutionChain": [
+      "163",
+      "164"
+    ]
+  },
+  {
+    "id": "164",
+    "name": "noctowl",
+    "type": "normal, flying",
+    "height": "1.6 m",
+    "weight": "40.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/164.png",
+    "evolutionChain": [
+      "163",
+      "164"
+    ]
+  },
+  {
+    "id": "165",
+    "name": "ledyba",
+    "type": "bug, flying",
+    "height": "1.0 m",
+    "weight": "10.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/165.png",
+    "evolutionChain": [
+      "165",
+      "166"
+    ]
+  },
+  {
+    "id": "166",
+    "name": "ledian",
+    "type": "bug, flying",
+    "height": "1.4 m",
+    "weight": "35.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/166.png",
+    "evolutionChain": [
+      "165",
+      "166"
+    ]
+  },
+  {
+    "id": "167",
+    "name": "spinarak",
+    "type": "bug, poison",
+    "height": "0.5 m",
+    "weight": "8.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/167.png",
+    "evolutionChain": [
+      "167",
+      "168"
+    ]
+  },
+  {
+    "id": "168",
+    "name": "ariados",
+    "type": "bug, poison",
+    "height": "1.1 m",
+    "weight": "33.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/168.png",
+    "evolutionChain": [
+      "167",
+      "168"
+    ]
+  },
+  {
+    "id": "169",
+    "name": "crobat",
+    "type": "poison, flying",
+    "height": "1.8 m",
+    "weight": "75.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/169.png",
+    "evolutionChain": [
+      "041",
+      "042",
+      "169"
+    ]
+  },
+  {
+    "id": "170",
+    "name": "chinchou",
+    "type": "water, electric",
+    "height": "0.5 m",
+    "weight": "12.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/170.png",
+    "evolutionChain": [
+      "170",
+      "171"
+    ]
+  },
+  {
+    "id": "171",
+    "name": "lanturn",
+    "type": "water, electric",
+    "height": "1.2 m",
+    "weight": "22.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/171.png",
+    "evolutionChain": [
+      "170",
+      "171"
+    ]
+  },
+  {
+    "id": "172",
+    "name": "pichu",
+    "type": "electric",
+    "height": "0.3 m",
+    "weight": "2.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/172.png",
+    "evolutionChain": [
+      "172",
+      "025",
+      "026"
+    ]
+  },
+  {
+    "id": "173",
+    "name": "cleffa",
+    "type": "fairy",
+    "height": "0.3 m",
+    "weight": "3.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/173.png",
+    "evolutionChain": [
+      "173",
+      "035",
+      "036"
+    ]
+  },
+  {
+    "id": "174",
+    "name": "igglybuff",
+    "type": "normal, fairy",
+    "height": "0.3 m",
+    "weight": "1.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/174.png",
+    "evolutionChain": [
+      "174",
+      "039",
+      "040"
+    ]
+  },
+  {
+    "id": "175",
+    "name": "togepi",
+    "type": "fairy",
+    "height": "0.3 m",
+    "weight": "1.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/175.png",
+    "evolutionChain": [
+      "175",
+      "176",
+      "468"
+    ]
+  },
+  {
+    "id": "176",
+    "name": "togetic",
+    "type": "fairy, flying",
+    "height": "0.6 m",
+    "weight": "3.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/176.png",
+    "evolutionChain": [
+      "175",
+      "176",
+      "468"
+    ]
+  },
+  {
+    "id": "177",
+    "name": "natu",
+    "type": "psychic, flying",
+    "height": "0.2 m",
+    "weight": "2.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/177.png",
+    "evolutionChain": [
+      "177",
+      "178"
+    ]
+  },
+  {
+    "id": "178",
+    "name": "xatu",
+    "type": "psychic, flying",
+    "height": "1.5 m",
+    "weight": "15.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/178.png",
+    "evolutionChain": [
+      "177",
+      "178"
+    ]
+  },
+  {
+    "id": "179",
+    "name": "mareep",
+    "type": "electric",
+    "height": "0.6 m",
+    "weight": "7.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/179.png",
+    "evolutionChain": [
+      "179",
+      "180",
+      "181"
+    ]
+  },
+  {
+    "id": "180",
+    "name": "flaaffy",
+    "type": "electric",
+    "height": "0.8 m",
+    "weight": "13.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/180.png",
+    "evolutionChain": [
+      "179",
+      "180",
+      "181"
+    ]
+  },
+  {
+    "id": "181",
+    "name": "ampharos",
+    "type": "electric",
+    "height": "1.4 m",
+    "weight": "61.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/181.png",
+    "evolutionChain": [
+      "179",
+      "180",
+      "181"
+    ]
+  },
+  {
+    "id": "182",
+    "name": "bellossom",
+    "type": "grass",
+    "height": "0.4 m",
+    "weight": "5.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/182.png",
+    "evolutionChain": [
+      "043",
+      "044",
+      "045",
+      "182"
+    ]
+  },
+  {
+    "id": "183",
+    "name": "marill",
+    "type": "water, fairy",
+    "height": "0.4 m",
+    "weight": "8.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/183.png",
+    "evolutionChain": [
+      "298",
+      "183",
+      "184"
+    ]
+  },
+  {
+    "id": "184",
+    "name": "azumarill",
+    "type": "water, fairy",
+    "height": "0.8 m",
+    "weight": "28.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/184.png",
+    "evolutionChain": [
+      "298",
+      "183",
+      "184"
+    ]
+  },
+  {
+    "id": "185",
+    "name": "sudowoodo",
+    "type": "rock",
+    "height": "1.2 m",
+    "weight": "38.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/185.png",
+    "evolutionChain": [
+      "438",
+      "185"
+    ]
+  },
+  {
+    "id": "186",
+    "name": "politoed",
+    "type": "water",
+    "height": "1.1 m",
+    "weight": "33.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/186.png",
+    "evolutionChain": [
+      "060",
+      "061",
+      "062",
+      "186"
+    ]
+  },
+  {
+    "id": "187",
+    "name": "hoppip",
+    "type": "grass, flying",
+    "height": "0.4 m",
+    "weight": "0.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/187.png",
+    "evolutionChain": [
+      "187",
+      "188",
+      "189"
+    ]
+  },
+  {
+    "id": "188",
+    "name": "skiploom",
+    "type": "grass, flying",
+    "height": "0.6 m",
+    "weight": "1.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/188.png",
+    "evolutionChain": [
+      "187",
+      "188",
+      "189"
+    ]
+  },
+  {
+    "id": "189",
+    "name": "jumpluff",
+    "type": "grass, flying",
+    "height": "0.8 m",
+    "weight": "3.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/189.png",
+    "evolutionChain": [
+      "187",
+      "188",
+      "189"
+    ]
+  },
+  {
+    "id": "190",
+    "name": "aipom",
+    "type": "normal",
+    "height": "0.8 m",
+    "weight": "11.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/190.png",
+    "evolutionChain": [
+      "190",
+      "424"
+    ]
+  },
+  {
+    "id": "191",
+    "name": "sunkern",
+    "type": "grass",
+    "height": "0.3 m",
+    "weight": "1.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/191.png",
+    "evolutionChain": [
+      "191",
+      "192"
+    ]
+  },
+  {
+    "id": "192",
+    "name": "sunflora",
+    "type": "grass",
+    "height": "0.8 m",
+    "weight": "8.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/192.png",
+    "evolutionChain": [
+      "191",
+      "192"
+    ]
+  },
+  {
+    "id": "193",
+    "name": "yanma",
+    "type": "bug, flying",
+    "height": "1.2 m",
+    "weight": "38.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/193.png",
+    "evolutionChain": [
+      "193",
+      "469"
+    ]
+  },
+  {
+    "id": "194",
+    "name": "wooper",
+    "type": "water, ground",
+    "height": "0.4 m",
+    "weight": "8.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/194.png",
+    "evolutionChain": [
+      "194",
+      "195"
+    ]
+  },
+  {
+    "id": "195",
+    "name": "quagsire",
+    "type": "water, ground",
+    "height": "1.4 m",
+    "weight": "75.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/195.png",
+    "evolutionChain": [
+      "194",
+      "195"
+    ]
+  },
+  {
+    "id": "196",
+    "name": "espeon",
+    "type": "psychic",
+    "height": "0.9 m",
+    "weight": "26.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/196.png",
+    "evolutionChain": [
+      "133",
+      "134",
+      "135",
+      "136",
+      "196",
+      "197",
+      "470",
+      "471"
+    ]
+  },
+  {
+    "id": "197",
+    "name": "umbreon",
+    "type": "dark",
+    "height": "1.0 m",
+    "weight": "27.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/197.png",
+    "evolutionChain": [
+      "133",
+      "134",
+      "135",
+      "136",
+      "196",
+      "197",
+      "470",
+      "471"
+    ]
+  },
+  {
+    "id": "198",
+    "name": "murkrow",
+    "type": "dark, flying",
+    "height": "0.5 m",
+    "weight": "2.1 kg",
+    "description": "No description available.",
+    "sprite": "sprites/198.png",
+    "evolutionChain": [
+      "198",
+      "430"
+    ]
+  },
+  {
+    "id": "199",
+    "name": "slowking",
+    "type": "water, psychic",
+    "height": "2.0 m",
+    "weight": "79.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/199.png",
+    "evolutionChain": [
+      "079",
+      "080",
+      "199"
+    ]
+  },
+  {
+    "id": "200",
+    "name": "misdreavus",
+    "type": "ghost",
+    "height": "0.7 m",
+    "weight": "1.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/200.png",
+    "evolutionChain": [
+      "200",
+      "429"
+    ]
+  },
+  {
+    "id": "201",
+    "name": "unown",
+    "type": "psychic",
+    "height": "0.5 m",
+    "weight": "5.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/201.png",
+    "evolutionChain": [
+      "201"
+    ]
+  },
+  {
+    "id": "202",
+    "name": "wobbuffet",
+    "type": "psychic",
+    "height": "1.3 m",
+    "weight": "28.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/202.png",
+    "evolutionChain": [
+      "360",
+      "202"
+    ]
+  },
+  {
+    "id": "203",
+    "name": "girafarig",
+    "type": "normal, psychic",
+    "height": "1.5 m",
+    "weight": "41.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/203.png",
+    "evolutionChain": [
+      "203"
+    ]
+  },
+  {
+    "id": "204",
+    "name": "pineco",
+    "type": "bug",
+    "height": "0.6 m",
+    "weight": "7.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/204.png",
+    "evolutionChain": [
+      "204",
+      "205"
+    ]
+  },
+  {
+    "id": "205",
+    "name": "forretress",
+    "type": "bug, steel",
+    "height": "1.2 m",
+    "weight": "125.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/205.png",
+    "evolutionChain": [
+      "204",
+      "205"
+    ]
+  },
+  {
+    "id": "206",
+    "name": "dunsparce",
+    "type": "normal",
+    "height": "1.5 m",
+    "weight": "14.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/206.png",
+    "evolutionChain": [
+      "206"
+    ]
+  },
+  {
+    "id": "207",
+    "name": "gligar",
+    "type": "ground, flying",
+    "height": "1.1 m",
+    "weight": "64.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/207.png",
+    "evolutionChain": [
+      "207",
+      "472"
+    ]
+  },
+  {
+    "id": "208",
+    "name": "steelix",
+    "type": "steel, ground",
+    "height": "9.2 m",
+    "weight": "400.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/208.png",
+    "evolutionChain": [
+      "095",
+      "208"
+    ]
+  },
+  {
+    "id": "209",
+    "name": "snubbull",
+    "type": "fairy",
+    "height": "0.6 m",
+    "weight": "7.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/209.png",
+    "evolutionChain": [
+      "209",
+      "210"
+    ]
+  },
+  {
+    "id": "210",
+    "name": "granbull",
+    "type": "fairy",
+    "height": "1.4 m",
+    "weight": "48.7 kg",
+    "description": "No description available.",
+    "sprite": "sprites/210.png",
+    "evolutionChain": [
+      "209",
+      "210"
+    ]
+  },
+  {
+    "id": "211",
+    "name": "qwilfish",
+    "type": "water, poison",
+    "height": "0.5 m",
+    "weight": "3.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/211.png",
+    "evolutionChain": [
+      "211"
+    ]
+  },
+  {
+    "id": "212",
+    "name": "scizor",
+    "type": "bug, steel",
+    "height": "1.8 m",
+    "weight": "118.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/212.png",
+    "evolutionChain": [
+      "123",
+      "212"
+    ]
+  },
+  {
+    "id": "213",
+    "name": "shuckle",
+    "type": "bug, rock",
+    "height": "0.6 m",
+    "weight": "20.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/213.png",
+    "evolutionChain": [
+      "213"
+    ]
+  },
+  {
+    "id": "214",
+    "name": "heracross",
+    "type": "bug, fighting",
+    "height": "1.5 m",
+    "weight": "54.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/214.png",
+    "evolutionChain": [
+      "214"
+    ]
+  },
+  {
+    "id": "215",
+    "name": "sneasel",
+    "type": "dark, ice",
+    "height": "0.9 m",
+    "weight": "28.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/215.png",
+    "evolutionChain": [
+      "215",
+      "461"
+    ]
+  },
+  {
+    "id": "216",
+    "name": "teddiursa",
+    "type": "normal",
+    "height": "0.6 m",
+    "weight": "8.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/216.png",
+    "evolutionChain": [
+      "216",
+      "217"
+    ]
+  },
+  {
+    "id": "217",
+    "name": "ursaring",
+    "type": "normal",
+    "height": "1.8 m",
+    "weight": "125.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/217.png",
+    "evolutionChain": [
+      "216",
+      "217"
+    ]
+  },
+  {
+    "id": "218",
+    "name": "slugma",
+    "type": "fire",
+    "height": "0.7 m",
+    "weight": "35.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/218.png",
+    "evolutionChain": [
+      "218",
+      "219"
+    ]
+  },
+  {
+    "id": "219",
+    "name": "magcargo",
+    "type": "fire, rock",
+    "height": "0.8 m",
+    "weight": "55.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/219.png",
+    "evolutionChain": [
+      "218",
+      "219"
+    ]
+  },
+  {
+    "id": "220",
+    "name": "swinub",
+    "type": "ice, ground",
+    "height": "0.4 m",
+    "weight": "6.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/220.png",
+    "evolutionChain": [
+      "220",
+      "221",
+      "473"
+    ]
+  },
+  {
+    "id": "221",
+    "name": "piloswine",
+    "type": "ice, ground",
+    "height": "1.1 m",
+    "weight": "55.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/221.png",
+    "evolutionChain": [
+      "220",
+      "221",
+      "473"
+    ]
+  },
+  {
+    "id": "222",
+    "name": "corsola",
+    "type": "water, rock",
+    "height": "0.6 m",
+    "weight": "5.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/222.png",
+    "evolutionChain": [
+      "222"
+    ]
+  },
+  {
+    "id": "223",
+    "name": "remoraid",
+    "type": "water",
+    "height": "0.6 m",
+    "weight": "12.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/223.png",
+    "evolutionChain": [
+      "223",
+      "224"
+    ]
+  },
+  {
+    "id": "224",
+    "name": "octillery",
+    "type": "water",
+    "height": "0.9 m",
+    "weight": "28.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/224.png",
+    "evolutionChain": [
+      "223",
+      "224"
+    ]
+  },
+  {
+    "id": "225",
+    "name": "delibird",
+    "type": "ice, flying",
+    "height": "0.9 m",
+    "weight": "16.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/225.png",
+    "evolutionChain": [
+      "225"
+    ]
+  },
+  {
+    "id": "226",
+    "name": "mantine",
+    "type": "water, flying",
+    "height": "2.1 m",
+    "weight": "220.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/226.png",
+    "evolutionChain": [
+      "458",
+      "226"
+    ]
+  },
+  {
+    "id": "227",
+    "name": "skarmory",
+    "type": "steel, flying",
+    "height": "1.7 m",
+    "weight": "50.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/227.png",
+    "evolutionChain": [
+      "227"
+    ]
+  },
+  {
+    "id": "228",
+    "name": "houndour",
+    "type": "dark, fire",
+    "height": "0.6 m",
+    "weight": "10.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/228.png",
+    "evolutionChain": [
+      "228",
+      "229"
+    ]
+  },
+  {
+    "id": "229",
+    "name": "houndoom",
+    "type": "dark, fire",
+    "height": "1.4 m",
+    "weight": "35.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/229.png",
+    "evolutionChain": [
+      "228",
+      "229"
+    ]
+  },
+  {
+    "id": "230",
+    "name": "kingdra",
+    "type": "water, dragon",
+    "height": "1.8 m",
+    "weight": "152.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/230.png",
+    "evolutionChain": [
+      "116",
+      "117",
+      "230"
+    ]
+  },
+  {
+    "id": "231",
+    "name": "phanpy",
+    "type": "ground",
+    "height": "0.5 m",
+    "weight": "33.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/231.png",
+    "evolutionChain": [
+      "231",
+      "232"
+    ]
+  },
+  {
+    "id": "232",
+    "name": "donphan",
+    "type": "ground",
+    "height": "1.1 m",
+    "weight": "120.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/232.png",
+    "evolutionChain": [
+      "231",
+      "232"
+    ]
+  },
+  {
+    "id": "233",
+    "name": "porygon2",
+    "type": "normal",
+    "height": "0.6 m",
+    "weight": "32.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/233.png",
+    "evolutionChain": [
+      "137",
+      "233",
+      "474"
+    ]
+  },
+  {
+    "id": "234",
+    "name": "stantler",
+    "type": "normal",
+    "height": "1.4 m",
+    "weight": "71.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/234.png",
+    "evolutionChain": [
+      "234"
+    ]
+  },
+  {
+    "id": "235",
+    "name": "smeargle",
+    "type": "normal",
+    "height": "1.2 m",
+    "weight": "58.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/235.png",
+    "evolutionChain": [
+      "235"
+    ]
+  },
+  {
+    "id": "236",
+    "name": "tyrogue",
+    "type": "fighting",
+    "height": "0.7 m",
+    "weight": "21.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/236.png",
+    "evolutionChain": [
+      "236",
+      "106",
+      "107",
+      "237"
+    ]
+  },
+  {
+    "id": "237",
+    "name": "hitmontop",
+    "type": "fighting",
+    "height": "1.4 m",
+    "weight": "48.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/237.png",
+    "evolutionChain": [
+      "236",
+      "106",
+      "107",
+      "237"
+    ]
+  },
+  {
+    "id": "238",
+    "name": "smoochum",
+    "type": "ice, psychic",
+    "height": "0.4 m",
+    "weight": "6.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/238.png",
+    "evolutionChain": [
+      "238",
+      "124"
+    ]
+  },
+  {
+    "id": "239",
+    "name": "elekid",
+    "type": "electric",
+    "height": "0.6 m",
+    "weight": "23.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/239.png",
+    "evolutionChain": [
+      "239",
+      "125",
+      "466"
+    ]
+  },
+  {
+    "id": "240",
+    "name": "magby",
+    "type": "fire",
+    "height": "0.7 m",
+    "weight": "21.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/240.png",
+    "evolutionChain": [
+      "240",
+      "126",
+      "467"
+    ]
+  },
+  {
+    "id": "241",
+    "name": "miltank",
+    "type": "normal",
+    "height": "1.2 m",
+    "weight": "75.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/241.png",
+    "evolutionChain": [
+      "241"
+    ]
+  },
+  {
+    "id": "242",
+    "name": "blissey",
+    "type": "normal",
+    "height": "1.5 m",
+    "weight": "46.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/242.png",
+    "evolutionChain": [
+      "440",
+      "113",
+      "242"
+    ]
+  },
+  {
+    "id": "243",
+    "name": "raikou",
+    "type": "electric",
+    "height": "1.9 m",
+    "weight": "178.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/243.png",
+    "evolutionChain": [
+      "243"
+    ]
+  },
+  {
+    "id": "244",
+    "name": "entei",
+    "type": "fire",
+    "height": "2.1 m",
+    "weight": "198.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/244.png",
+    "evolutionChain": [
+      "244"
+    ]
+  },
+  {
+    "id": "245",
+    "name": "suicune",
+    "type": "water",
+    "height": "2.0 m",
+    "weight": "187.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/245.png",
+    "evolutionChain": [
+      "245"
+    ]
+  },
+  {
+    "id": "246",
+    "name": "larvitar",
+    "type": "rock, ground",
+    "height": "0.6 m",
+    "weight": "72.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/246.png",
+    "evolutionChain": [
+      "246",
+      "247",
+      "248"
+    ]
+  },
+  {
+    "id": "247",
+    "name": "pupitar",
+    "type": "rock, ground",
+    "height": "1.2 m",
+    "weight": "152.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/247.png",
+    "evolutionChain": [
+      "246",
+      "247",
+      "248"
+    ]
+  },
+  {
+    "id": "248",
+    "name": "tyranitar",
+    "type": "rock, dark",
+    "height": "2.0 m",
+    "weight": "202.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/248.png",
+    "evolutionChain": [
+      "246",
+      "247",
+      "248"
+    ]
+  },
+  {
+    "id": "249",
+    "name": "lugia",
+    "type": "psychic, flying",
+    "height": "5.2 m",
+    "weight": "216.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/249.png",
+    "evolutionChain": [
+      "249"
+    ]
+  },
+  {
+    "id": "250",
+    "name": "ho-oh",
+    "type": "fire, flying",
+    "height": "3.8 m",
+    "weight": "199.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/250.png",
+    "evolutionChain": [
+      "250"
+    ]
+  },
+  {
+    "id": "251",
+    "name": "celebi",
+    "type": "psychic, grass",
+    "height": "0.6 m",
+    "weight": "5.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/251.png",
+    "evolutionChain": [
+      "251"
+    ]
+  },
+  {
+    "id": "252",
+    "name": "treecko",
+    "type": "grass",
+    "height": "0.5 m",
+    "weight": "5.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/252.png",
+    "evolutionChain": [
+      "252",
+      "253",
+      "254"
+    ]
+  },
+  {
+    "id": "253",
+    "name": "grovyle",
+    "type": "grass",
+    "height": "0.9 m",
+    "weight": "21.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/253.png",
+    "evolutionChain": [
+      "252",
+      "253",
+      "254"
+    ]
+  },
+  {
+    "id": "254",
+    "name": "sceptile",
+    "type": "grass",
+    "height": "1.7 m",
+    "weight": "52.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/254.png",
+    "evolutionChain": [
+      "252",
+      "253",
+      "254"
+    ]
+  },
+  {
+    "id": "255",
+    "name": "torchic",
+    "type": "fire",
+    "height": "0.4 m",
+    "weight": "2.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/255.png",
+    "evolutionChain": [
+      "255",
+      "256",
+      "257"
+    ]
+  },
+  {
+    "id": "256",
+    "name": "combusken",
+    "type": "fire, fighting",
+    "height": "0.9 m",
+    "weight": "19.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/256.png",
+    "evolutionChain": [
+      "255",
+      "256",
+      "257"
+    ]
+  },
+  {
+    "id": "257",
+    "name": "blaziken",
+    "type": "fire, fighting",
+    "height": "1.9 m",
+    "weight": "52.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/257.png",
+    "evolutionChain": [
+      "255",
+      "256",
+      "257"
+    ]
+  },
+  {
+    "id": "258",
+    "name": "mudkip",
+    "type": "water",
+    "height": "0.4 m",
+    "weight": "7.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/258.png",
+    "evolutionChain": [
+      "258",
+      "259",
+      "260"
+    ]
+  },
+  {
+    "id": "259",
+    "name": "marshtomp",
+    "type": "water, ground",
+    "height": "0.7 m",
+    "weight": "28.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/259.png",
+    "evolutionChain": [
+      "258",
+      "259",
+      "260"
+    ]
+  },
+  {
+    "id": "260",
+    "name": "swampert",
+    "type": "water, ground",
+    "height": "1.5 m",
+    "weight": "81.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/260.png",
+    "evolutionChain": [
+      "258",
+      "259",
+      "260"
+    ]
+  },
+  {
+    "id": "261",
+    "name": "poochyena",
+    "type": "dark",
+    "height": "0.5 m",
+    "weight": "13.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/261.png",
+    "evolutionChain": [
+      "261",
+      "262"
+    ]
+  },
+  {
+    "id": "262",
+    "name": "mightyena",
+    "type": "dark",
+    "height": "1.0 m",
+    "weight": "37.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/262.png",
+    "evolutionChain": [
+      "261",
+      "262"
+    ]
+  },
+  {
+    "id": "263",
+    "name": "zigzagoon",
+    "type": "normal",
+    "height": "0.4 m",
+    "weight": "17.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/263.png",
+    "evolutionChain": [
+      "263",
+      "264"
+    ]
+  },
+  {
+    "id": "264",
+    "name": "linoone",
+    "type": "normal",
+    "height": "0.5 m",
+    "weight": "32.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/264.png",
+    "evolutionChain": [
+      "263",
+      "264"
+    ]
+  },
+  {
+    "id": "265",
+    "name": "wurmple",
+    "type": "bug",
+    "height": "0.3 m",
+    "weight": "3.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/265.png",
+    "evolutionChain": [
+      "265",
+      "266",
+      "267",
+      "268",
+      "269"
+    ]
+  },
+  {
+    "id": "266",
+    "name": "silcoon",
+    "type": "bug",
+    "height": "0.6 m",
+    "weight": "10.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/266.png",
+    "evolutionChain": [
+      "265",
+      "266",
+      "267",
+      "268",
+      "269"
+    ]
+  },
+  {
+    "id": "267",
+    "name": "beautifly",
+    "type": "bug, flying",
+    "height": "1.0 m",
+    "weight": "28.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/267.png",
+    "evolutionChain": [
+      "265",
+      "266",
+      "267",
+      "268",
+      "269"
+    ]
+  },
+  {
+    "id": "268",
+    "name": "cascoon",
+    "type": "bug",
+    "height": "0.7 m",
+    "weight": "11.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/268.png",
+    "evolutionChain": [
+      "265",
+      "266",
+      "267",
+      "268",
+      "269"
+    ]
+  },
+  {
+    "id": "269",
+    "name": "dustox",
+    "type": "bug, poison",
+    "height": "1.2 m",
+    "weight": "31.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/269.png",
+    "evolutionChain": [
+      "265",
+      "266",
+      "267",
+      "268",
+      "269"
+    ]
+  },
+  {
+    "id": "270",
+    "name": "lotad",
+    "type": "water, grass",
+    "height": "0.5 m",
+    "weight": "2.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/270.png",
+    "evolutionChain": [
+      "270",
+      "271",
+      "272"
+    ]
+  },
+  {
+    "id": "271",
+    "name": "lombre",
+    "type": "water, grass",
+    "height": "1.2 m",
+    "weight": "32.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/271.png",
+    "evolutionChain": [
+      "270",
+      "271",
+      "272"
+    ]
+  },
+  {
+    "id": "272",
+    "name": "ludicolo",
+    "type": "water, grass",
+    "height": "1.5 m",
+    "weight": "55.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/272.png",
+    "evolutionChain": [
+      "270",
+      "271",
+      "272"
+    ]
+  },
+  {
+    "id": "273",
+    "name": "seedot",
+    "type": "grass",
+    "height": "0.5 m",
+    "weight": "4.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/273.png",
+    "evolutionChain": [
+      "273",
+      "274",
+      "275"
+    ]
+  },
+  {
+    "id": "274",
+    "name": "nuzleaf",
+    "type": "grass, dark",
+    "height": "1.0 m",
+    "weight": "28.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/274.png",
+    "evolutionChain": [
+      "273",
+      "274",
+      "275"
+    ]
+  },
+  {
+    "id": "275",
+    "name": "shiftry",
+    "type": "grass, dark",
+    "height": "1.3 m",
+    "weight": "59.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/275.png",
+    "evolutionChain": [
+      "273",
+      "274",
+      "275"
+    ]
+  },
+  {
+    "id": "276",
+    "name": "taillow",
+    "type": "normal, flying",
+    "height": "0.3 m",
+    "weight": "2.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/276.png",
+    "evolutionChain": [
+      "276",
+      "277"
+    ]
+  },
+  {
+    "id": "277",
+    "name": "swellow",
+    "type": "normal, flying",
+    "height": "0.7 m",
+    "weight": "19.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/277.png",
+    "evolutionChain": [
+      "276",
+      "277"
+    ]
+  },
+  {
+    "id": "278",
+    "name": "wingull",
+    "type": "water, flying",
+    "height": "0.6 m",
+    "weight": "9.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/278.png",
+    "evolutionChain": [
+      "278",
+      "279"
+    ]
+  },
+  {
+    "id": "279",
+    "name": "pelipper",
+    "type": "water, flying",
+    "height": "1.2 m",
+    "weight": "28.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/279.png",
+    "evolutionChain": [
+      "278",
+      "279"
+    ]
+  },
+  {
+    "id": "280",
+    "name": "ralts",
+    "type": "psychic, fairy",
+    "height": "0.4 m",
+    "weight": "6.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/280.png",
+    "evolutionChain": [
+      "280",
+      "281",
+      "282",
+      "475"
+    ]
+  },
+  {
+    "id": "281",
+    "name": "kirlia",
+    "type": "psychic, fairy",
+    "height": "0.8 m",
+    "weight": "20.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/281.png",
+    "evolutionChain": [
+      "280",
+      "281",
+      "282",
+      "475"
+    ]
+  },
+  {
+    "id": "282",
+    "name": "gardevoir",
+    "type": "psychic, fairy",
+    "height": "1.6 m",
+    "weight": "48.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/282.png",
+    "evolutionChain": [
+      "280",
+      "281",
+      "282",
+      "475"
+    ]
+  },
+  {
+    "id": "283",
+    "name": "surskit",
+    "type": "bug, water",
+    "height": "0.5 m",
+    "weight": "1.7 kg",
+    "description": "No description available.",
+    "sprite": "sprites/283.png",
+    "evolutionChain": [
+      "283",
+      "284"
+    ]
+  },
+  {
+    "id": "284",
+    "name": "masquerain",
+    "type": "bug, flying",
+    "height": "0.8 m",
+    "weight": "3.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/284.png",
+    "evolutionChain": [
+      "283",
+      "284"
+    ]
+  },
+  {
+    "id": "285",
+    "name": "shroomish",
+    "type": "grass",
+    "height": "0.4 m",
+    "weight": "4.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/285.png",
+    "evolutionChain": [
+      "285",
+      "286"
+    ]
+  },
+  {
+    "id": "286",
+    "name": "breloom",
+    "type": "grass, fighting",
+    "height": "1.2 m",
+    "weight": "39.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/286.png",
+    "evolutionChain": [
+      "285",
+      "286"
+    ]
+  },
+  {
+    "id": "287",
+    "name": "slakoth",
+    "type": "normal",
+    "height": "0.8 m",
+    "weight": "24.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/287.png",
+    "evolutionChain": [
+      "287",
+      "288",
+      "289"
+    ]
+  },
+  {
+    "id": "288",
+    "name": "vigoroth",
+    "type": "normal",
+    "height": "1.4 m",
+    "weight": "46.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/288.png",
+    "evolutionChain": [
+      "287",
+      "288",
+      "289"
+    ]
+  },
+  {
+    "id": "289",
+    "name": "slaking",
+    "type": "normal",
+    "height": "2.0 m",
+    "weight": "130.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/289.png",
+    "evolutionChain": [
+      "287",
+      "288",
+      "289"
+    ]
+  },
+  {
+    "id": "290",
+    "name": "nincada",
+    "type": "bug, ground",
+    "height": "0.5 m",
+    "weight": "5.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/290.png",
+    "evolutionChain": [
+      "290",
+      "291",
+      "292"
+    ]
+  },
+  {
+    "id": "291",
+    "name": "ninjask",
+    "type": "bug, flying",
+    "height": "0.8 m",
+    "weight": "12.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/291.png",
+    "evolutionChain": [
+      "290",
+      "291",
+      "292"
+    ]
+  },
+  {
+    "id": "292",
+    "name": "shedinja",
+    "type": "bug, ghost",
+    "height": "0.8 m",
+    "weight": "1.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/292.png",
+    "evolutionChain": [
+      "290",
+      "291",
+      "292"
+    ]
+  },
+  {
+    "id": "293",
+    "name": "whismur",
+    "type": "normal",
+    "height": "0.6 m",
+    "weight": "16.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/293.png",
+    "evolutionChain": [
+      "293",
+      "294",
+      "295"
+    ]
+  },
+  {
+    "id": "294",
+    "name": "loudred",
+    "type": "normal",
+    "height": "1.0 m",
+    "weight": "40.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/294.png",
+    "evolutionChain": [
+      "293",
+      "294",
+      "295"
+    ]
+  },
+  {
+    "id": "295",
+    "name": "exploud",
+    "type": "normal",
+    "height": "1.5 m",
+    "weight": "84.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/295.png",
+    "evolutionChain": [
+      "293",
+      "294",
+      "295"
+    ]
+  },
+  {
+    "id": "296",
+    "name": "makuhita",
+    "type": "fighting",
+    "height": "1.0 m",
+    "weight": "86.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/296.png",
+    "evolutionChain": [
+      "296",
+      "297"
+    ]
+  },
+  {
+    "id": "297",
+    "name": "hariyama",
+    "type": "fighting",
+    "height": "2.3 m",
+    "weight": "253.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/297.png",
+    "evolutionChain": [
+      "296",
+      "297"
+    ]
+  },
+  {
+    "id": "298",
+    "name": "azurill",
+    "type": "normal, fairy",
+    "height": "0.2 m",
+    "weight": "2.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/298.png",
+    "evolutionChain": [
+      "298",
+      "183",
+      "184"
+    ]
+  },
+  {
+    "id": "299",
+    "name": "nosepass",
+    "type": "rock",
+    "height": "1.0 m",
+    "weight": "97.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/299.png",
+    "evolutionChain": [
+      "299",
+      "476"
+    ]
+  },
+  {
+    "id": "300",
+    "name": "skitty",
+    "type": "normal",
+    "height": "0.6 m",
+    "weight": "11.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/300.png",
+    "evolutionChain": [
+      "300",
+      "301"
+    ]
+  },
+  {
+    "id": "301",
+    "name": "delcatty",
+    "type": "normal",
+    "height": "1.1 m",
+    "weight": "32.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/301.png",
+    "evolutionChain": [
+      "300",
+      "301"
+    ]
+  },
+  {
+    "id": "302",
+    "name": "sableye",
+    "type": "dark, ghost",
+    "height": "0.5 m",
+    "weight": "11.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/302.png",
+    "evolutionChain": [
+      "302"
+    ]
+  },
+  {
+    "id": "303",
+    "name": "mawile",
+    "type": "steel, fairy",
+    "height": "0.6 m",
+    "weight": "11.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/303.png",
+    "evolutionChain": [
+      "303"
+    ]
+  },
+  {
+    "id": "304",
+    "name": "aron",
+    "type": "steel, rock",
+    "height": "0.4 m",
+    "weight": "60.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/304.png",
+    "evolutionChain": [
+      "304",
+      "305",
+      "306"
+    ]
+  },
+  {
+    "id": "305",
+    "name": "lairon",
+    "type": "steel, rock",
+    "height": "0.9 m",
+    "weight": "120.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/305.png",
+    "evolutionChain": [
+      "304",
+      "305",
+      "306"
+    ]
+  },
+  {
+    "id": "306",
+    "name": "aggron",
+    "type": "steel, rock",
+    "height": "2.1 m",
+    "weight": "360.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/306.png",
+    "evolutionChain": [
+      "304",
+      "305",
+      "306"
+    ]
+  },
+  {
+    "id": "307",
+    "name": "meditite",
+    "type": "fighting, psychic",
+    "height": "0.6 m",
+    "weight": "11.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/307.png",
+    "evolutionChain": [
+      "307",
+      "308"
+    ]
+  },
+  {
+    "id": "308",
+    "name": "medicham",
+    "type": "fighting, psychic",
+    "height": "1.3 m",
+    "weight": "31.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/308.png",
+    "evolutionChain": [
+      "307",
+      "308"
+    ]
+  },
+  {
+    "id": "309",
+    "name": "electrike",
+    "type": "electric",
+    "height": "0.6 m",
+    "weight": "15.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/309.png",
+    "evolutionChain": [
+      "309",
+      "310"
+    ]
+  },
+  {
+    "id": "310",
+    "name": "manectric",
+    "type": "electric",
+    "height": "1.5 m",
+    "weight": "40.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/310.png",
+    "evolutionChain": [
+      "309",
+      "310"
+    ]
+  },
+  {
+    "id": "311",
+    "name": "plusle",
+    "type": "electric",
+    "height": "0.4 m",
+    "weight": "4.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/311.png",
+    "evolutionChain": [
+      "311"
+    ]
+  },
+  {
+    "id": "312",
+    "name": "minun",
+    "type": "electric",
+    "height": "0.4 m",
+    "weight": "4.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/312.png",
+    "evolutionChain": [
+      "312"
+    ]
+  },
+  {
+    "id": "313",
+    "name": "volbeat",
+    "type": "bug",
+    "height": "0.7 m",
+    "weight": "17.7 kg",
+    "description": "No description available.",
+    "sprite": "sprites/313.png",
+    "evolutionChain": [
+      "313"
+    ]
+  },
+  {
+    "id": "314",
+    "name": "illumise",
+    "type": "bug",
+    "height": "0.6 m",
+    "weight": "17.7 kg",
+    "description": "No description available.",
+    "sprite": "sprites/314.png",
+    "evolutionChain": [
+      "314"
+    ]
+  },
+  {
+    "id": "315",
+    "name": "roselia",
+    "type": "grass, poison",
+    "height": "0.3 m",
+    "weight": "2.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/315.png",
+    "evolutionChain": [
+      "406",
+      "315",
+      "407"
+    ]
+  },
+  {
+    "id": "316",
+    "name": "gulpin",
+    "type": "poison",
+    "height": "0.4 m",
+    "weight": "10.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/316.png",
+    "evolutionChain": [
+      "316",
+      "317"
+    ]
+  },
+  {
+    "id": "317",
+    "name": "swalot",
+    "type": "poison",
+    "height": "1.7 m",
+    "weight": "80.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/317.png",
+    "evolutionChain": [
+      "316",
+      "317"
+    ]
+  },
+  {
+    "id": "318",
+    "name": "carvanha",
+    "type": "water, dark",
+    "height": "0.8 m",
+    "weight": "20.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/318.png",
+    "evolutionChain": [
+      "318",
+      "319"
+    ]
+  },
+  {
+    "id": "319",
+    "name": "sharpedo",
+    "type": "water, dark",
+    "height": "1.8 m",
+    "weight": "88.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/319.png",
+    "evolutionChain": [
+      "318",
+      "319"
+    ]
+  },
+  {
+    "id": "320",
+    "name": "wailmer",
+    "type": "water",
+    "height": "2.0 m",
+    "weight": "130.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/320.png",
+    "evolutionChain": [
+      "320",
+      "321"
+    ]
+  },
+  {
+    "id": "321",
+    "name": "wailord",
+    "type": "water",
+    "height": "14.5 m",
+    "weight": "398.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/321.png",
+    "evolutionChain": [
+      "320",
+      "321"
+    ]
+  },
+  {
+    "id": "322",
+    "name": "numel",
+    "type": "fire, ground",
+    "height": "0.7 m",
+    "weight": "24.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/322.png",
+    "evolutionChain": [
+      "322",
+      "323"
+    ]
+  },
+  {
+    "id": "323",
+    "name": "camerupt",
+    "type": "fire, ground",
+    "height": "1.9 m",
+    "weight": "220.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/323.png",
+    "evolutionChain": [
+      "322",
+      "323"
+    ]
+  },
+  {
+    "id": "324",
+    "name": "torkoal",
+    "type": "fire",
+    "height": "0.5 m",
+    "weight": "80.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/324.png",
+    "evolutionChain": [
+      "324"
+    ]
+  },
+  {
+    "id": "325",
+    "name": "spoink",
+    "type": "psychic",
+    "height": "0.7 m",
+    "weight": "30.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/325.png",
+    "evolutionChain": [
+      "325",
+      "326"
+    ]
+  },
+  {
+    "id": "326",
+    "name": "grumpig",
+    "type": "psychic",
+    "height": "0.9 m",
+    "weight": "71.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/326.png",
+    "evolutionChain": [
+      "325",
+      "326"
+    ]
+  },
+  {
+    "id": "327",
+    "name": "spinda",
+    "type": "normal",
+    "height": "1.1 m",
+    "weight": "5.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/327.png",
+    "evolutionChain": [
+      "327"
+    ]
+  },
+  {
+    "id": "328",
+    "name": "trapinch",
+    "type": "ground",
+    "height": "0.7 m",
+    "weight": "15.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/328.png",
+    "evolutionChain": [
+      "328",
+      "329",
+      "330"
+    ]
+  },
+  {
+    "id": "329",
+    "name": "vibrava",
+    "type": "ground, dragon",
+    "height": "1.1 m",
+    "weight": "15.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/329.png",
+    "evolutionChain": [
+      "328",
+      "329",
+      "330"
+    ]
+  },
+  {
+    "id": "330",
+    "name": "flygon",
+    "type": "ground, dragon",
+    "height": "2.0 m",
+    "weight": "82.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/330.png",
+    "evolutionChain": [
+      "328",
+      "329",
+      "330"
+    ]
+  },
+  {
+    "id": "331",
+    "name": "cacnea",
+    "type": "grass",
+    "height": "0.4 m",
+    "weight": "51.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/331.png",
+    "evolutionChain": [
+      "331",
+      "332"
+    ]
+  },
+  {
+    "id": "332",
+    "name": "cacturne",
+    "type": "grass, dark",
+    "height": "1.3 m",
+    "weight": "77.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/332.png",
+    "evolutionChain": [
+      "331",
+      "332"
+    ]
+  },
+  {
+    "id": "333",
+    "name": "swablu",
+    "type": "normal, flying",
+    "height": "0.4 m",
+    "weight": "1.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/333.png",
+    "evolutionChain": [
+      "333",
+      "334"
+    ]
+  },
+  {
+    "id": "334",
+    "name": "altaria",
+    "type": "dragon, flying",
+    "height": "1.1 m",
+    "weight": "20.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/334.png",
+    "evolutionChain": [
+      "333",
+      "334"
+    ]
+  },
+  {
+    "id": "335",
+    "name": "zangoose",
+    "type": "normal",
+    "height": "1.3 m",
+    "weight": "40.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/335.png",
+    "evolutionChain": [
+      "335"
+    ]
+  },
+  {
+    "id": "336",
+    "name": "seviper",
+    "type": "poison",
+    "height": "2.7 m",
+    "weight": "52.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/336.png",
+    "evolutionChain": [
+      "336"
+    ]
+  },
+  {
+    "id": "337",
+    "name": "lunatone",
+    "type": "rock, psychic",
+    "height": "1.0 m",
+    "weight": "168.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/337.png",
+    "evolutionChain": [
+      "337"
+    ]
+  },
+  {
+    "id": "338",
+    "name": "solrock",
+    "type": "rock, psychic",
+    "height": "1.2 m",
+    "weight": "154.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/338.png",
+    "evolutionChain": [
+      "338"
+    ]
+  },
+  {
+    "id": "339",
+    "name": "barboach",
+    "type": "water, ground",
+    "height": "0.4 m",
+    "weight": "1.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/339.png",
+    "evolutionChain": [
+      "339",
+      "340"
+    ]
+  },
+  {
+    "id": "340",
+    "name": "whiscash",
+    "type": "water, ground",
+    "height": "0.9 m",
+    "weight": "23.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/340.png",
+    "evolutionChain": [
+      "339",
+      "340"
+    ]
+  },
+  {
+    "id": "341",
+    "name": "corphish",
+    "type": "water",
+    "height": "0.6 m",
+    "weight": "11.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/341.png",
+    "evolutionChain": [
+      "341",
+      "342"
+    ]
+  },
+  {
+    "id": "342",
+    "name": "crawdaunt",
+    "type": "water, dark",
+    "height": "1.1 m",
+    "weight": "32.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/342.png",
+    "evolutionChain": [
+      "341",
+      "342"
+    ]
+  },
+  {
+    "id": "343",
+    "name": "baltoy",
+    "type": "ground, psychic",
+    "height": "0.5 m",
+    "weight": "21.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/343.png",
+    "evolutionChain": [
+      "343",
+      "344"
+    ]
+  },
+  {
+    "id": "344",
+    "name": "claydol",
+    "type": "ground, psychic",
+    "height": "1.5 m",
+    "weight": "108.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/344.png",
+    "evolutionChain": [
+      "343",
+      "344"
+    ]
+  },
+  {
+    "id": "345",
+    "name": "lileep",
+    "type": "rock, grass",
+    "height": "1.0 m",
+    "weight": "23.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/345.png",
+    "evolutionChain": [
+      "345",
+      "346"
+    ]
+  },
+  {
+    "id": "346",
+    "name": "cradily",
+    "type": "rock, grass",
+    "height": "1.5 m",
+    "weight": "60.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/346.png",
+    "evolutionChain": [
+      "345",
+      "346"
+    ]
+  },
+  {
+    "id": "347",
+    "name": "anorith",
+    "type": "rock, bug",
+    "height": "0.7 m",
+    "weight": "12.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/347.png",
+    "evolutionChain": [
+      "347",
+      "348"
+    ]
+  },
+  {
+    "id": "348",
+    "name": "armaldo",
+    "type": "rock, bug",
+    "height": "1.5 m",
+    "weight": "68.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/348.png",
+    "evolutionChain": [
+      "347",
+      "348"
+    ]
+  },
+  {
+    "id": "349",
+    "name": "feebas",
+    "type": "water",
+    "height": "0.6 m",
+    "weight": "7.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/349.png",
+    "evolutionChain": [
+      "349",
+      "350"
+    ]
+  },
+  {
+    "id": "350",
+    "name": "milotic",
+    "type": "water",
+    "height": "6.2 m",
+    "weight": "162.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/350.png",
+    "evolutionChain": [
+      "349",
+      "350"
+    ]
+  },
+  {
+    "id": "351",
+    "name": "castform",
+    "type": "normal",
+    "height": "0.3 m",
+    "weight": "0.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/351.png",
+    "evolutionChain": [
+      "351"
+    ]
+  },
+  {
+    "id": "352",
+    "name": "kecleon",
+    "type": "normal",
+    "height": "1.0 m",
+    "weight": "22.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/352.png",
+    "evolutionChain": [
+      "352"
+    ]
+  },
+  {
+    "id": "353",
+    "name": "shuppet",
+    "type": "ghost",
+    "height": "0.6 m",
+    "weight": "2.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/353.png",
+    "evolutionChain": [
+      "353",
+      "354"
+    ]
+  },
+  {
+    "id": "354",
+    "name": "banette",
+    "type": "ghost",
+    "height": "1.1 m",
+    "weight": "12.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/354.png",
+    "evolutionChain": [
+      "353",
+      "354"
+    ]
+  },
+  {
+    "id": "355",
+    "name": "duskull",
+    "type": "ghost",
+    "height": "0.8 m",
+    "weight": "15.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/355.png",
+    "evolutionChain": [
+      "355",
+      "356",
+      "477"
+    ]
+  },
+  {
+    "id": "356",
+    "name": "dusclops",
+    "type": "ghost",
+    "height": "1.6 m",
+    "weight": "30.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/356.png",
+    "evolutionChain": [
+      "355",
+      "356",
+      "477"
+    ]
+  },
+  {
+    "id": "357",
+    "name": "tropius",
+    "type": "grass, flying",
+    "height": "2.0 m",
+    "weight": "100.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/357.png",
+    "evolutionChain": [
+      "357"
+    ]
+  },
+  {
+    "id": "358",
+    "name": "chimecho",
+    "type": "psychic",
+    "height": "0.6 m",
+    "weight": "1.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/358.png",
+    "evolutionChain": [
+      "433",
+      "358"
+    ]
+  },
+  {
+    "id": "359",
+    "name": "absol",
+    "type": "dark",
+    "height": "1.2 m",
+    "weight": "47.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/359.png",
+    "evolutionChain": [
+      "359"
+    ]
+  },
+  {
+    "id": "360",
+    "name": "wynaut",
+    "type": "psychic",
+    "height": "0.6 m",
+    "weight": "14.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/360.png",
+    "evolutionChain": [
+      "360",
+      "202"
+    ]
+  },
+  {
+    "id": "361",
+    "name": "snorunt",
+    "type": "ice",
+    "height": "0.7 m",
+    "weight": "16.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/361.png",
+    "evolutionChain": [
+      "361",
+      "362",
+      "478"
+    ]
+  },
+  {
+    "id": "362",
+    "name": "glalie",
+    "type": "ice",
+    "height": "1.5 m",
+    "weight": "256.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/362.png",
+    "evolutionChain": [
+      "361",
+      "362",
+      "478"
+    ]
+  },
+  {
+    "id": "363",
+    "name": "spheal",
+    "type": "ice, water",
+    "height": "0.8 m",
+    "weight": "39.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/363.png",
+    "evolutionChain": [
+      "363",
+      "364",
+      "365"
+    ]
+  },
+  {
+    "id": "364",
+    "name": "sealeo",
+    "type": "ice, water",
+    "height": "1.1 m",
+    "weight": "87.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/364.png",
+    "evolutionChain": [
+      "363",
+      "364",
+      "365"
+    ]
+  },
+  {
+    "id": "365",
+    "name": "walrein",
+    "type": "ice, water",
+    "height": "1.4 m",
+    "weight": "150.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/365.png",
+    "evolutionChain": [
+      "363",
+      "364",
+      "365"
+    ]
+  },
+  {
+    "id": "366",
+    "name": "clamperl",
+    "type": "water",
+    "height": "0.4 m",
+    "weight": "52.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/366.png",
+    "evolutionChain": [
+      "366",
+      "367",
+      "368"
+    ]
+  },
+  {
+    "id": "367",
+    "name": "huntail",
+    "type": "water",
+    "height": "1.7 m",
+    "weight": "27.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/367.png",
+    "evolutionChain": [
+      "366",
+      "367",
+      "368"
+    ]
+  },
+  {
+    "id": "368",
+    "name": "gorebyss",
+    "type": "water",
+    "height": "1.8 m",
+    "weight": "22.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/368.png",
+    "evolutionChain": [
+      "366",
+      "367",
+      "368"
+    ]
+  },
+  {
+    "id": "369",
+    "name": "relicanth",
+    "type": "water, rock",
+    "height": "1.0 m",
+    "weight": "23.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/369.png",
+    "evolutionChain": [
+      "369"
+    ]
+  },
+  {
+    "id": "370",
+    "name": "luvdisc",
+    "type": "water",
+    "height": "0.6 m",
+    "weight": "8.7 kg",
+    "description": "No description available.",
+    "sprite": "sprites/370.png",
+    "evolutionChain": [
+      "370"
+    ]
+  },
+  {
+    "id": "371",
+    "name": "bagon",
+    "type": "dragon",
+    "height": "0.6 m",
+    "weight": "42.1 kg",
+    "description": "No description available.",
+    "sprite": "sprites/371.png",
+    "evolutionChain": [
+      "371",
+      "372",
+      "373"
+    ]
+  },
+  {
+    "id": "372",
+    "name": "shelgon",
+    "type": "dragon",
+    "height": "1.1 m",
+    "weight": "110.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/372.png",
+    "evolutionChain": [
+      "371",
+      "372",
+      "373"
+    ]
+  },
+  {
+    "id": "373",
+    "name": "salamence",
+    "type": "dragon, flying",
+    "height": "1.5 m",
+    "weight": "102.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/373.png",
+    "evolutionChain": [
+      "371",
+      "372",
+      "373"
+    ]
+  },
+  {
+    "id": "374",
+    "name": "beldum",
+    "type": "steel, psychic",
+    "height": "0.6 m",
+    "weight": "95.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/374.png",
+    "evolutionChain": [
+      "374",
+      "375",
+      "376"
+    ]
+  },
+  {
+    "id": "375",
+    "name": "metang",
+    "type": "steel, psychic",
+    "height": "1.2 m",
+    "weight": "202.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/375.png",
+    "evolutionChain": [
+      "374",
+      "375",
+      "376"
+    ]
+  },
+  {
+    "id": "376",
+    "name": "metagross",
+    "type": "steel, psychic",
+    "height": "1.6 m",
+    "weight": "550.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/376.png",
+    "evolutionChain": [
+      "374",
+      "375",
+      "376"
+    ]
+  },
+  {
+    "id": "377",
+    "name": "regirock",
+    "type": "rock",
+    "height": "1.7 m",
+    "weight": "230.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/377.png",
+    "evolutionChain": [
+      "377"
+    ]
+  },
+  {
+    "id": "378",
+    "name": "regice",
+    "type": "ice",
+    "height": "1.8 m",
+    "weight": "175.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/378.png",
+    "evolutionChain": [
+      "378"
+    ]
+  },
+  {
+    "id": "379",
+    "name": "registeel",
+    "type": "steel",
+    "height": "1.9 m",
+    "weight": "205.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/379.png",
+    "evolutionChain": [
+      "379"
+    ]
+  },
+  {
+    "id": "380",
+    "name": "latias",
+    "type": "dragon, psychic",
+    "height": "1.4 m",
+    "weight": "40.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/380.png",
+    "evolutionChain": [
+      "380"
+    ]
+  },
+  {
+    "id": "381",
+    "name": "latios",
+    "type": "dragon, psychic",
+    "height": "2.0 m",
+    "weight": "60.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/381.png",
+    "evolutionChain": [
+      "381"
+    ]
+  },
+  {
+    "id": "382",
+    "name": "kyogre",
+    "type": "water",
+    "height": "4.5 m",
+    "weight": "352.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/382.png",
+    "evolutionChain": [
+      "382"
+    ]
+  },
+  {
+    "id": "383",
+    "name": "groudon",
+    "type": "ground",
+    "height": "3.5 m",
+    "weight": "950.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/383.png",
+    "evolutionChain": [
+      "383"
+    ]
+  },
+  {
+    "id": "384",
+    "name": "rayquaza",
+    "type": "dragon, flying",
+    "height": "7.0 m",
+    "weight": "206.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/384.png",
+    "evolutionChain": [
+      "384"
+    ]
+  },
+  {
+    "id": "385",
+    "name": "jirachi",
+    "type": "steel, psychic",
+    "height": "0.3 m",
+    "weight": "1.1 kg",
+    "description": "No description available.",
+    "sprite": "sprites/385.png",
+    "evolutionChain": [
+      "385"
+    ]
+  },
+  {
+    "id": "386",
+    "name": "deoxys-normal",
+    "type": "psychic",
+    "height": "1.7 m",
+    "weight": "60.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/386.png",
+    "evolutionChain": [
+      "386"
+    ]
+  },
+  {
+    "id": "387",
+    "name": "turtwig",
+    "type": "grass",
+    "height": "0.4 m",
+    "weight": "10.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/387.png",
+    "evolutionChain": [
+      "387",
+      "388",
+      "389"
+    ]
+  },
+  {
+    "id": "388",
+    "name": "grotle",
+    "type": "grass",
+    "height": "1.1 m",
+    "weight": "97.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/388.png",
+    "evolutionChain": [
+      "387",
+      "388",
+      "389"
+    ]
+  },
+  {
+    "id": "389",
+    "name": "torterra",
+    "type": "grass, ground",
+    "height": "2.2 m",
+    "weight": "310.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/389.png",
+    "evolutionChain": [
+      "387",
+      "388",
+      "389"
+    ]
+  },
+  {
+    "id": "390",
+    "name": "chimchar",
+    "type": "fire",
+    "height": "0.5 m",
+    "weight": "6.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/390.png",
+    "evolutionChain": [
+      "390",
+      "391",
+      "392"
+    ]
+  },
+  {
+    "id": "391",
+    "name": "monferno",
+    "type": "fire, fighting",
+    "height": "0.9 m",
+    "weight": "22.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/391.png",
+    "evolutionChain": [
+      "390",
+      "391",
+      "392"
+    ]
+  },
+  {
+    "id": "392",
+    "name": "infernape",
+    "type": "fire, fighting",
+    "height": "1.2 m",
+    "weight": "55.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/392.png",
+    "evolutionChain": [
+      "390",
+      "391",
+      "392"
+    ]
+  },
+  {
+    "id": "393",
+    "name": "piplup",
+    "type": "water",
+    "height": "0.4 m",
+    "weight": "5.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/393.png",
+    "evolutionChain": [
+      "393",
+      "394",
+      "395"
+    ]
+  },
+  {
+    "id": "394",
+    "name": "prinplup",
+    "type": "water",
+    "height": "0.8 m",
+    "weight": "23.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/394.png",
+    "evolutionChain": [
+      "393",
+      "394",
+      "395"
+    ]
+  },
+  {
+    "id": "395",
+    "name": "empoleon",
+    "type": "water, steel",
+    "height": "1.7 m",
+    "weight": "84.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/395.png",
+    "evolutionChain": [
+      "393",
+      "394",
+      "395"
+    ]
+  },
+  {
+    "id": "396",
+    "name": "starly",
+    "type": "normal, flying",
+    "height": "0.3 m",
+    "weight": "2.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/396.png",
+    "evolutionChain": [
+      "396",
+      "397",
+      "398"
+    ]
+  },
+  {
+    "id": "397",
+    "name": "staravia",
+    "type": "normal, flying",
+    "height": "0.6 m",
+    "weight": "15.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/397.png",
+    "evolutionChain": [
+      "396",
+      "397",
+      "398"
+    ]
+  },
+  {
+    "id": "398",
+    "name": "staraptor",
+    "type": "normal, flying",
+    "height": "1.2 m",
+    "weight": "24.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/398.png",
+    "evolutionChain": [
+      "396",
+      "397",
+      "398"
+    ]
+  },
+  {
+    "id": "399",
+    "name": "bidoof",
+    "type": "normal",
+    "height": "0.5 m",
+    "weight": "20.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/399.png",
+    "evolutionChain": [
+      "399",
+      "400"
+    ]
+  },
+  {
+    "id": "400",
+    "name": "bibarel",
+    "type": "normal, water",
+    "height": "1.0 m",
+    "weight": "31.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/400.png",
+    "evolutionChain": [
+      "399",
+      "400"
+    ]
+  },
+  {
+    "id": "401",
+    "name": "kricketot",
+    "type": "bug",
+    "height": "0.3 m",
+    "weight": "2.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/401.png",
+    "evolutionChain": [
+      "401",
+      "402"
+    ]
+  },
+  {
+    "id": "402",
+    "name": "kricketune",
+    "type": "bug",
+    "height": "1.0 m",
+    "weight": "25.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/402.png",
+    "evolutionChain": [
+      "401",
+      "402"
+    ]
+  },
+  {
+    "id": "403",
+    "name": "shinx",
+    "type": "electric",
+    "height": "0.5 m",
+    "weight": "9.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/403.png",
+    "evolutionChain": [
+      "403",
+      "404",
+      "405"
+    ]
+  },
+  {
+    "id": "404",
+    "name": "luxio",
+    "type": "electric",
+    "height": "0.9 m",
+    "weight": "30.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/404.png",
+    "evolutionChain": [
+      "403",
+      "404",
+      "405"
+    ]
+  },
+  {
+    "id": "405",
+    "name": "luxray",
+    "type": "electric",
+    "height": "1.4 m",
+    "weight": "42.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/405.png",
+    "evolutionChain": [
+      "403",
+      "404",
+      "405"
+    ]
+  },
+  {
+    "id": "406",
+    "name": "budew",
+    "type": "grass, poison",
+    "height": "0.2 m",
+    "weight": "1.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/406.png",
+    "evolutionChain": [
+      "406",
+      "315",
+      "407"
+    ]
+  },
+  {
+    "id": "407",
+    "name": "roserade",
+    "type": "grass, poison",
+    "height": "0.9 m",
+    "weight": "14.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/407.png",
+    "evolutionChain": [
+      "406",
+      "315",
+      "407"
+    ]
+  },
+  {
+    "id": "408",
+    "name": "cranidos",
+    "type": "rock",
+    "height": "0.9 m",
+    "weight": "31.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/408.png",
+    "evolutionChain": [
+      "408",
+      "409"
+    ]
+  },
+  {
+    "id": "409",
+    "name": "rampardos",
+    "type": "rock",
+    "height": "1.6 m",
+    "weight": "102.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/409.png",
+    "evolutionChain": [
+      "408",
+      "409"
+    ]
+  },
+  {
+    "id": "410",
+    "name": "shieldon",
+    "type": "rock, steel",
+    "height": "0.5 m",
+    "weight": "57.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/410.png",
+    "evolutionChain": [
+      "410",
+      "411"
+    ]
+  },
+  {
+    "id": "411",
+    "name": "bastiodon",
+    "type": "rock, steel",
+    "height": "1.3 m",
+    "weight": "149.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/411.png",
+    "evolutionChain": [
+      "410",
+      "411"
+    ]
+  },
+  {
+    "id": "412",
+    "name": "burmy",
+    "type": "bug",
+    "height": "0.2 m",
+    "weight": "3.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/412.png",
+    "evolutionChain": [
+      "412",
+      "413",
+      "414"
+    ]
+  },
+  {
+    "id": "413",
+    "name": "wormadam-plant",
+    "type": "bug, grass",
+    "height": "0.5 m",
+    "weight": "6.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/413.png",
+    "evolutionChain": [
+      "412",
+      "413",
+      "414"
+    ]
+  },
+  {
+    "id": "414",
+    "name": "mothim",
+    "type": "bug, flying",
+    "height": "0.9 m",
+    "weight": "23.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/414.png",
+    "evolutionChain": [
+      "412",
+      "413",
+      "414"
+    ]
+  },
+  {
+    "id": "415",
+    "name": "combee",
+    "type": "bug, flying",
+    "height": "0.3 m",
+    "weight": "5.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/415.png",
+    "evolutionChain": [
+      "415",
+      "416"
+    ]
+  },
+  {
+    "id": "416",
+    "name": "vespiquen",
+    "type": "bug, flying",
+    "height": "1.2 m",
+    "weight": "38.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/416.png",
+    "evolutionChain": [
+      "415",
+      "416"
+    ]
+  },
+  {
+    "id": "417",
+    "name": "pachirisu",
+    "type": "electric",
+    "height": "0.4 m",
+    "weight": "3.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/417.png",
+    "evolutionChain": [
+      "417"
+    ]
+  },
+  {
+    "id": "418",
+    "name": "buizel",
+    "type": "water",
+    "height": "0.7 m",
+    "weight": "29.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/418.png",
+    "evolutionChain": [
+      "418",
+      "419"
+    ]
+  },
+  {
+    "id": "419",
+    "name": "floatzel",
+    "type": "water",
+    "height": "1.1 m",
+    "weight": "33.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/419.png",
+    "evolutionChain": [
+      "418",
+      "419"
+    ]
+  },
+  {
+    "id": "420",
+    "name": "cherubi",
+    "type": "grass",
+    "height": "0.4 m",
+    "weight": "3.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/420.png",
+    "evolutionChain": [
+      "420",
+      "421"
+    ]
+  },
+  {
+    "id": "421",
+    "name": "cherrim",
+    "type": "grass",
+    "height": "0.5 m",
+    "weight": "9.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/421.png",
+    "evolutionChain": [
+      "420",
+      "421"
+    ]
+  },
+  {
+    "id": "422",
+    "name": "shellos",
+    "type": "water",
+    "height": "0.3 m",
+    "weight": "6.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/422.png",
+    "evolutionChain": [
+      "422",
+      "423"
+    ]
+  },
+  {
+    "id": "423",
+    "name": "gastrodon",
+    "type": "water, ground",
+    "height": "0.9 m",
+    "weight": "29.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/423.png",
+    "evolutionChain": [
+      "422",
+      "423"
+    ]
+  },
+  {
+    "id": "424",
+    "name": "ambipom",
+    "type": "normal",
+    "height": "1.2 m",
+    "weight": "20.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/424.png",
+    "evolutionChain": [
+      "190",
+      "424"
+    ]
+  },
+  {
+    "id": "425",
+    "name": "drifloon",
+    "type": "ghost, flying",
+    "height": "0.4 m",
+    "weight": "1.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/425.png",
+    "evolutionChain": [
+      "425",
+      "426"
+    ]
+  },
+  {
+    "id": "426",
+    "name": "drifblim",
+    "type": "ghost, flying",
+    "height": "1.2 m",
+    "weight": "15.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/426.png",
+    "evolutionChain": [
+      "425",
+      "426"
+    ]
+  },
+  {
+    "id": "427",
+    "name": "buneary",
+    "type": "normal",
+    "height": "0.4 m",
+    "weight": "5.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/427.png",
+    "evolutionChain": [
+      "427",
+      "428"
+    ]
+  },
+  {
+    "id": "428",
+    "name": "lopunny",
+    "type": "normal",
+    "height": "1.2 m",
+    "weight": "33.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/428.png",
+    "evolutionChain": [
+      "427",
+      "428"
+    ]
+  },
+  {
+    "id": "429",
+    "name": "mismagius",
+    "type": "ghost",
+    "height": "0.9 m",
+    "weight": "4.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/429.png",
+    "evolutionChain": [
+      "200",
+      "429"
+    ]
+  },
+  {
+    "id": "430",
+    "name": "honchkrow",
+    "type": "dark, flying",
+    "height": "0.9 m",
+    "weight": "27.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/430.png",
+    "evolutionChain": [
+      "198",
+      "430"
+    ]
+  },
+  {
+    "id": "431",
+    "name": "glameow",
+    "type": "normal",
+    "height": "0.5 m",
+    "weight": "3.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/431.png",
+    "evolutionChain": [
+      "431",
+      "432"
+    ]
+  },
+  {
+    "id": "432",
+    "name": "purugly",
+    "type": "normal",
+    "height": "1.0 m",
+    "weight": "43.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/432.png",
+    "evolutionChain": [
+      "431",
+      "432"
+    ]
+  },
+  {
+    "id": "433",
+    "name": "chingling",
+    "type": "psychic",
+    "height": "0.2 m",
+    "weight": "0.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/433.png",
+    "evolutionChain": [
+      "433",
+      "358"
+    ]
+  },
+  {
+    "id": "434",
+    "name": "stunky",
+    "type": "poison, dark",
+    "height": "0.4 m",
+    "weight": "19.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/434.png",
+    "evolutionChain": [
+      "434",
+      "435"
+    ]
+  },
+  {
+    "id": "435",
+    "name": "skuntank",
+    "type": "poison, dark",
+    "height": "1.0 m",
+    "weight": "38.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/435.png",
+    "evolutionChain": [
+      "434",
+      "435"
+    ]
+  },
+  {
+    "id": "436",
+    "name": "bronzor",
+    "type": "steel, psychic",
+    "height": "0.5 m",
+    "weight": "60.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/436.png",
+    "evolutionChain": [
+      "436",
+      "437"
+    ]
+  },
+  {
+    "id": "437",
+    "name": "bronzong",
+    "type": "steel, psychic",
+    "height": "1.3 m",
+    "weight": "187.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/437.png",
+    "evolutionChain": [
+      "436",
+      "437"
+    ]
+  },
+  {
+    "id": "438",
+    "name": "bonsly",
+    "type": "rock",
+    "height": "0.5 m",
+    "weight": "15.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/438.png",
+    "evolutionChain": [
+      "438",
+      "185"
+    ]
+  },
+  {
+    "id": "439",
+    "name": "mime-jr",
+    "type": "psychic, fairy",
+    "height": "0.6 m",
+    "weight": "13.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/439.png",
+    "evolutionChain": [
+      "439",
+      "122"
+    ]
+  },
+  {
+    "id": "440",
+    "name": "happiny",
+    "type": "normal",
+    "height": "0.6 m",
+    "weight": "24.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/440.png",
+    "evolutionChain": [
+      "440",
+      "113",
+      "242"
+    ]
+  },
+  {
+    "id": "441",
+    "name": "chatot",
+    "type": "normal, flying",
+    "height": "0.5 m",
+    "weight": "1.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/441.png",
+    "evolutionChain": [
+      "441"
+    ]
+  },
+  {
+    "id": "442",
+    "name": "spiritomb",
+    "type": "ghost, dark",
+    "height": "1.0 m",
+    "weight": "108.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/442.png",
+    "evolutionChain": [
+      "442"
+    ]
+  },
+  {
+    "id": "443",
+    "name": "gible",
+    "type": "dragon, ground",
+    "height": "0.7 m",
+    "weight": "20.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/443.png",
+    "evolutionChain": [
+      "443",
+      "444",
+      "445"
+    ]
+  },
+  {
+    "id": "444",
+    "name": "gabite",
+    "type": "dragon, ground",
+    "height": "1.4 m",
+    "weight": "56.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/444.png",
+    "evolutionChain": [
+      "443",
+      "444",
+      "445"
+    ]
+  },
+  {
+    "id": "445",
+    "name": "garchomp",
+    "type": "dragon, ground",
+    "height": "1.9 m",
+    "weight": "95.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/445.png",
+    "evolutionChain": [
+      "443",
+      "444",
+      "445"
+    ]
+  },
+  {
+    "id": "446",
+    "name": "munchlax",
+    "type": "normal",
+    "height": "0.6 m",
+    "weight": "105.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/446.png",
+    "evolutionChain": [
+      "446",
+      "143"
+    ]
+  },
+  {
+    "id": "447",
+    "name": "riolu",
+    "type": "fighting",
+    "height": "0.7 m",
+    "weight": "20.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/447.png",
+    "evolutionChain": [
+      "447",
+      "448"
+    ]
+  },
+  {
+    "id": "448",
+    "name": "lucario",
+    "type": "fighting, steel",
+    "height": "1.2 m",
+    "weight": "54.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/448.png",
+    "evolutionChain": [
+      "447",
+      "448"
+    ]
+  },
+  {
+    "id": "449",
+    "name": "hippopotas",
+    "type": "ground",
+    "height": "0.8 m",
+    "weight": "49.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/449.png",
+    "evolutionChain": [
+      "449",
+      "450"
+    ]
+  },
+  {
+    "id": "450",
+    "name": "hippowdon",
+    "type": "ground",
+    "height": "2.0 m",
+    "weight": "300.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/450.png",
+    "evolutionChain": [
+      "449",
+      "450"
+    ]
+  },
+  {
+    "id": "451",
+    "name": "skorupi",
+    "type": "poison, bug",
+    "height": "0.8 m",
+    "weight": "12.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/451.png",
+    "evolutionChain": [
+      "451",
+      "452"
+    ]
+  },
+  {
+    "id": "452",
+    "name": "drapion",
+    "type": "poison, dark",
+    "height": "1.3 m",
+    "weight": "61.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/452.png",
+    "evolutionChain": [
+      "451",
+      "452"
+    ]
+  },
+  {
+    "id": "453",
+    "name": "croagunk",
+    "type": "poison, fighting",
+    "height": "0.7 m",
+    "weight": "23.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/453.png",
+    "evolutionChain": [
+      "453",
+      "454"
+    ]
+  },
+  {
+    "id": "454",
+    "name": "toxicroak",
+    "type": "poison, fighting",
+    "height": "1.3 m",
+    "weight": "44.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/454.png",
+    "evolutionChain": [
+      "453",
+      "454"
+    ]
+  },
+  {
+    "id": "455",
+    "name": "carnivine",
+    "type": "grass",
+    "height": "1.4 m",
+    "weight": "27.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/455.png",
+    "evolutionChain": [
+      "455"
+    ]
+  },
+  {
+    "id": "456",
+    "name": "finneon",
+    "type": "water",
+    "height": "0.4 m",
+    "weight": "7.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/456.png",
+    "evolutionChain": [
+      "456",
+      "457"
+    ]
+  },
+  {
+    "id": "457",
+    "name": "lumineon",
+    "type": "water",
+    "height": "1.2 m",
+    "weight": "24.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/457.png",
+    "evolutionChain": [
+      "456",
+      "457"
+    ]
+  },
+  {
+    "id": "458",
+    "name": "mantyke",
+    "type": "water, flying",
+    "height": "1.0 m",
+    "weight": "65.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/458.png",
+    "evolutionChain": [
+      "458",
+      "226"
+    ]
+  },
+  {
+    "id": "459",
+    "name": "snover",
+    "type": "grass, ice",
+    "height": "1.0 m",
+    "weight": "50.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/459.png",
+    "evolutionChain": [
+      "459",
+      "460"
+    ]
+  },
+  {
+    "id": "460",
+    "name": "abomasnow",
+    "type": "grass, ice",
+    "height": "2.2 m",
+    "weight": "135.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/460.png",
+    "evolutionChain": [
+      "459",
+      "460"
+    ]
+  },
+  {
+    "id": "461",
+    "name": "weavile",
+    "type": "dark, ice",
+    "height": "1.1 m",
+    "weight": "34.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/461.png",
+    "evolutionChain": [
+      "215",
+      "461"
+    ]
+  },
+  {
+    "id": "462",
+    "name": "magnezone",
+    "type": "electric, steel",
+    "height": "1.2 m",
+    "weight": "180.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/462.png",
+    "evolutionChain": [
+      "081",
+      "082",
+      "462"
+    ]
+  },
+  {
+    "id": "463",
+    "name": "lickilicky",
+    "type": "normal",
+    "height": "1.7 m",
+    "weight": "140.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/463.png",
+    "evolutionChain": [
+      "108",
+      "463"
+    ]
+  },
+  {
+    "id": "464",
+    "name": "rhyperior",
+    "type": "ground, rock",
+    "height": "2.4 m",
+    "weight": "282.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/464.png",
+    "evolutionChain": [
+      "111",
+      "112",
+      "464"
+    ]
+  },
+  {
+    "id": "465",
+    "name": "tangrowth",
+    "type": "grass",
+    "height": "2.0 m",
+    "weight": "128.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/465.png",
+    "evolutionChain": [
+      "114",
+      "465"
+    ]
+  },
+  {
+    "id": "466",
+    "name": "electivire",
+    "type": "electric",
+    "height": "1.8 m",
+    "weight": "138.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/466.png",
+    "evolutionChain": [
+      "239",
+      "125",
+      "466"
+    ]
+  },
+  {
+    "id": "467",
+    "name": "magmortar",
+    "type": "fire",
+    "height": "1.6 m",
+    "weight": "68.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/467.png",
+    "evolutionChain": [
+      "240",
+      "126",
+      "467"
+    ]
+  },
+  {
+    "id": "468",
+    "name": "togekiss",
+    "type": "fairy, flying",
+    "height": "1.5 m",
+    "weight": "38.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/468.png",
+    "evolutionChain": [
+      "175",
+      "176",
+      "468"
+    ]
+  },
+  {
+    "id": "469",
+    "name": "yanmega",
+    "type": "bug, flying",
+    "height": "1.9 m",
+    "weight": "51.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/469.png",
+    "evolutionChain": [
+      "193",
+      "469"
+    ]
+  },
+  {
+    "id": "470",
+    "name": "leafeon",
+    "type": "grass",
+    "height": "1.0 m",
+    "weight": "25.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/470.png",
+    "evolutionChain": [
+      "133",
+      "134",
+      "135",
+      "136",
+      "196",
+      "197",
+      "470",
+      "471"
+    ]
+  },
+  {
+    "id": "471",
+    "name": "glaceon",
+    "type": "ice",
+    "height": "0.8 m",
+    "weight": "25.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/471.png",
+    "evolutionChain": [
+      "133",
+      "134",
+      "135",
+      "136",
+      "196",
+      "197",
+      "470",
+      "471"
+    ]
+  },
+  {
+    "id": "472",
+    "name": "gliscor",
+    "type": "ground, flying",
+    "height": "2.0 m",
+    "weight": "42.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/472.png",
+    "evolutionChain": [
+      "207",
+      "472"
+    ]
+  },
+  {
+    "id": "473",
+    "name": "mamoswine",
+    "type": "ice, ground",
+    "height": "2.5 m",
+    "weight": "291.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/473.png",
+    "evolutionChain": [
+      "220",
+      "221",
+      "473"
+    ]
+  },
+  {
+    "id": "474",
+    "name": "porygon-z",
+    "type": "normal",
+    "height": "0.9 m",
+    "weight": "34.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/474.png",
+    "evolutionChain": [
+      "137",
+      "233",
+      "474"
+    ]
+  },
+  {
+    "id": "475",
+    "name": "gallade",
+    "type": "psychic, fighting",
+    "height": "1.6 m",
+    "weight": "52.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/475.png",
+    "evolutionChain": [
+      "280",
+      "281",
+      "282",
+      "475"
+    ]
+  },
+  {
+    "id": "476",
+    "name": "probopass",
+    "type": "rock, steel",
+    "height": "1.4 m",
+    "weight": "340.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/476.png",
+    "evolutionChain": [
+      "299",
+      "476"
+    ]
+  },
+  {
+    "id": "477",
+    "name": "dusknoir",
+    "type": "ghost",
+    "height": "2.2 m",
+    "weight": "106.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/477.png",
+    "evolutionChain": [
+      "355",
+      "356",
+      "477"
+    ]
+  },
+  {
+    "id": "478",
+    "name": "froslass",
+    "type": "ice, ghost",
+    "height": "1.3 m",
+    "weight": "26.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/478.png",
+    "evolutionChain": [
+      "361",
+      "362",
+      "478"
+    ]
+  },
+  {
+    "id": "479",
+    "name": "rotom",
+    "type": "electric, ghost",
+    "height": "0.3 m",
+    "weight": "0.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/479.png",
+    "evolutionChain": [
+      "479"
+    ]
+  },
+  {
+    "id": "480",
+    "name": "uxie",
+    "type": "psychic",
+    "height": "0.3 m",
+    "weight": "0.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/480.png",
+    "evolutionChain": [
+      "480"
+    ]
+  },
+  {
+    "id": "481",
+    "name": "mesprit",
+    "type": "psychic",
+    "height": "0.3 m",
+    "weight": "0.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/481.png",
+    "evolutionChain": [
+      "481"
+    ]
+  },
+  {
+    "id": "482",
+    "name": "azelf",
+    "type": "psychic",
+    "height": "0.3 m",
+    "weight": "0.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/482.png",
+    "evolutionChain": [
+      "482"
+    ]
+  },
+  {
+    "id": "483",
+    "name": "dialga",
+    "type": "steel, dragon",
+    "height": "5.4 m",
+    "weight": "683.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/483.png",
+    "evolutionChain": [
+      "483"
+    ]
+  },
+  {
+    "id": "484",
+    "name": "palkia",
+    "type": "water, dragon",
+    "height": "4.2 m",
+    "weight": "336.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/484.png",
+    "evolutionChain": [
+      "484"
+    ]
+  },
+  {
+    "id": "485",
+    "name": "heatran",
+    "type": "fire, steel",
+    "height": "1.7 m",
+    "weight": "430.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/485.png",
+    "evolutionChain": [
+      "485"
+    ]
+  },
+  {
+    "id": "486",
+    "name": "regigigas",
+    "type": "normal",
+    "height": "3.7 m",
+    "weight": "420.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/486.png",
+    "evolutionChain": [
+      "486"
+    ]
+  },
+  {
+    "id": "487",
+    "name": "giratina-altered",
+    "type": "ghost, dragon",
+    "height": "4.5 m",
+    "weight": "750.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/487.png",
+    "evolutionChain": [
+      "487"
+    ]
+  },
+  {
+    "id": "488",
+    "name": "cresselia",
+    "type": "psychic",
+    "height": "1.5 m",
+    "weight": "85.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/488.png",
+    "evolutionChain": [
+      "488"
+    ]
+  },
+  {
+    "id": "489",
+    "name": "phione",
+    "type": "water",
+    "height": "0.4 m",
+    "weight": "3.1 kg",
+    "description": "No description available.",
+    "sprite": "sprites/489.png",
+    "evolutionChain": [
+      "489",
+      "490"
+    ]
+  },
+  {
+    "id": "490",
+    "name": "manaphy",
+    "type": "water",
+    "height": "0.3 m",
+    "weight": "1.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/490.png",
+    "evolutionChain": [
+      "489",
+      "490"
+    ]
+  },
+  {
+    "id": "491",
+    "name": "darkrai",
+    "type": "dark",
+    "height": "1.5 m",
+    "weight": "50.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/491.png",
+    "evolutionChain": [
+      "491"
+    ]
+  },
+  {
+    "id": "492",
+    "name": "shaymin-land",
+    "type": "grass",
+    "height": "0.2 m",
+    "weight": "2.1 kg",
+    "description": "No description available.",
+    "sprite": "sprites/492.png",
+    "evolutionChain": [
+      "492"
+    ]
+  },
+  {
+    "id": "493",
+    "name": "arceus",
+    "type": "normal",
+    "height": "3.2 m",
+    "weight": "320.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/493.png",
+    "evolutionChain": [
+      "493"
+    ]
+  },
+  {
+    "id": "494",
+    "name": "victini",
+    "type": "psychic, fire",
+    "height": "0.4 m",
+    "weight": "4.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/494.png",
+    "evolutionChain": [
+      "494"
+    ]
+  },
+  {
+    "id": "495",
+    "name": "snivy",
+    "type": "grass",
+    "height": "0.6 m",
+    "weight": "8.1 kg",
+    "description": "No description available.",
+    "sprite": "sprites/495.png",
+    "evolutionChain": [
+      "495",
+      "496",
+      "497"
+    ]
+  },
+  {
+    "id": "496",
+    "name": "servine",
+    "type": "grass",
+    "height": "0.8 m",
+    "weight": "16.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/496.png",
+    "evolutionChain": [
+      "495",
+      "496",
+      "497"
+    ]
+  },
+  {
+    "id": "497",
+    "name": "serperior",
+    "type": "grass",
+    "height": "3.3 m",
+    "weight": "63.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/497.png",
+    "evolutionChain": [
+      "495",
+      "496",
+      "497"
+    ]
+  },
+  {
+    "id": "498",
+    "name": "tepig",
+    "type": "fire",
+    "height": "0.5 m",
+    "weight": "9.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/498.png",
+    "evolutionChain": [
+      "498",
+      "499",
+      "500"
+    ]
+  },
+  {
+    "id": "499",
+    "name": "pignite",
+    "type": "fire, fighting",
+    "height": "1.0 m",
+    "weight": "55.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/499.png",
+    "evolutionChain": [
+      "498",
+      "499",
+      "500"
+    ]
+  },
+  {
+    "id": "500",
+    "name": "emboar",
+    "type": "fire, fighting",
+    "height": "1.6 m",
+    "weight": "150.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/500.png",
+    "evolutionChain": [
+      "498",
+      "499",
+      "500"
+    ]
+  },
+  {
+    "id": "501",
+    "name": "oshawott",
+    "type": "water",
+    "height": "0.5 m",
+    "weight": "5.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/501.png",
+    "evolutionChain": [
+      "501",
+      "502",
+      "503"
+    ]
+  },
+  {
+    "id": "502",
+    "name": "dewott",
+    "type": "water",
+    "height": "0.8 m",
+    "weight": "24.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/502.png",
+    "evolutionChain": [
+      "501",
+      "502",
+      "503"
+    ]
+  },
+  {
+    "id": "503",
+    "name": "samurott",
+    "type": "water",
+    "height": "1.5 m",
+    "weight": "94.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/503.png",
+    "evolutionChain": [
+      "501",
+      "502",
+      "503"
+    ]
+  },
+  {
+    "id": "504",
+    "name": "patrat",
+    "type": "normal",
+    "height": "0.5 m",
+    "weight": "11.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/504.png",
+    "evolutionChain": [
+      "504",
+      "505"
+    ]
+  },
+  {
+    "id": "505",
+    "name": "watchog",
+    "type": "normal",
+    "height": "1.1 m",
+    "weight": "27.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/505.png",
+    "evolutionChain": [
+      "504",
+      "505"
+    ]
+  },
+  {
+    "id": "506",
+    "name": "lillipup",
+    "type": "normal",
+    "height": "0.4 m",
+    "weight": "4.1 kg",
+    "description": "No description available.",
+    "sprite": "sprites/506.png",
+    "evolutionChain": [
+      "506",
+      "507",
+      "508"
+    ]
+  },
+  {
+    "id": "507",
+    "name": "herdier",
+    "type": "normal",
+    "height": "0.9 m",
+    "weight": "14.7 kg",
+    "description": "No description available.",
+    "sprite": "sprites/507.png",
+    "evolutionChain": [
+      "506",
+      "507",
+      "508"
+    ]
+  },
+  {
+    "id": "508",
+    "name": "stoutland",
+    "type": "normal",
+    "height": "1.2 m",
+    "weight": "61.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/508.png",
+    "evolutionChain": [
+      "506",
+      "507",
+      "508"
+    ]
+  },
+  {
+    "id": "509",
+    "name": "purrloin",
+    "type": "dark",
+    "height": "0.4 m",
+    "weight": "10.1 kg",
+    "description": "No description available.",
+    "sprite": "sprites/509.png",
+    "evolutionChain": [
+      "509",
+      "510"
+    ]
+  },
+  {
+    "id": "510",
+    "name": "liepard",
+    "type": "dark",
+    "height": "1.1 m",
+    "weight": "37.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/510.png",
+    "evolutionChain": [
+      "509",
+      "510"
+    ]
+  },
+  {
+    "id": "511",
+    "name": "pansage",
+    "type": "grass",
+    "height": "0.6 m",
+    "weight": "10.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/511.png",
+    "evolutionChain": [
+      "511",
+      "512"
+    ]
+  },
+  {
+    "id": "512",
+    "name": "simisage",
+    "type": "grass",
+    "height": "1.1 m",
+    "weight": "30.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/512.png",
+    "evolutionChain": [
+      "511",
+      "512"
+    ]
+  },
+  {
+    "id": "513",
+    "name": "pansear",
+    "type": "fire",
+    "height": "0.6 m",
+    "weight": "11.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/513.png",
+    "evolutionChain": [
+      "513",
+      "514"
+    ]
+  },
+  {
+    "id": "514",
+    "name": "simisear",
+    "type": "fire",
+    "height": "1.0 m",
+    "weight": "28.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/514.png",
+    "evolutionChain": [
+      "513",
+      "514"
+    ]
+  },
+  {
+    "id": "515",
+    "name": "panpour",
+    "type": "water",
+    "height": "0.6 m",
+    "weight": "13.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/515.png",
+    "evolutionChain": [
+      "515",
+      "516"
+    ]
+  },
+  {
+    "id": "516",
+    "name": "simipour",
+    "type": "water",
+    "height": "1.0 m",
+    "weight": "29.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/516.png",
+    "evolutionChain": [
+      "515",
+      "516"
+    ]
+  },
+  {
+    "id": "517",
+    "name": "munna",
+    "type": "psychic",
+    "height": "0.6 m",
+    "weight": "23.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/517.png",
+    "evolutionChain": [
+      "517",
+      "518"
+    ]
+  },
+  {
+    "id": "518",
+    "name": "musharna",
+    "type": "psychic",
+    "height": "1.1 m",
+    "weight": "60.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/518.png",
+    "evolutionChain": [
+      "517",
+      "518"
+    ]
+  },
+  {
+    "id": "519",
+    "name": "pidove",
+    "type": "normal, flying",
+    "height": "0.3 m",
+    "weight": "2.1 kg",
+    "description": "No description available.",
+    "sprite": "sprites/519.png",
+    "evolutionChain": [
+      "519",
+      "520",
+      "521"
+    ]
+  },
+  {
+    "id": "520",
+    "name": "tranquill",
+    "type": "normal, flying",
+    "height": "0.6 m",
+    "weight": "15.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/520.png",
+    "evolutionChain": [
+      "519",
+      "520",
+      "521"
+    ]
+  },
+  {
+    "id": "521",
+    "name": "unfezant",
+    "type": "normal, flying",
+    "height": "1.2 m",
+    "weight": "29.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/521.png",
+    "evolutionChain": [
+      "519",
+      "520",
+      "521"
+    ]
+  },
+  {
+    "id": "522",
+    "name": "blitzle",
+    "type": "electric",
+    "height": "0.8 m",
+    "weight": "29.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/522.png",
+    "evolutionChain": [
+      "522",
+      "523"
+    ]
+  },
+  {
+    "id": "523",
+    "name": "zebstrika",
+    "type": "electric",
+    "height": "1.6 m",
+    "weight": "79.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/523.png",
+    "evolutionChain": [
+      "522",
+      "523"
+    ]
+  },
+  {
+    "id": "524",
+    "name": "roggenrola",
+    "type": "rock",
+    "height": "0.4 m",
+    "weight": "18.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/524.png",
+    "evolutionChain": [
+      "524",
+      "525",
+      "526"
+    ]
+  },
+  {
+    "id": "525",
+    "name": "boldore",
+    "type": "rock",
+    "height": "0.9 m",
+    "weight": "102.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/525.png",
+    "evolutionChain": [
+      "524",
+      "525",
+      "526"
+    ]
+  },
+  {
+    "id": "526",
+    "name": "gigalith",
+    "type": "rock",
+    "height": "1.7 m",
+    "weight": "260.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/526.png",
+    "evolutionChain": [
+      "524",
+      "525",
+      "526"
+    ]
+  },
+  {
+    "id": "527",
+    "name": "woobat",
+    "type": "psychic, flying",
+    "height": "0.4 m",
+    "weight": "2.1 kg",
+    "description": "No description available.",
+    "sprite": "sprites/527.png",
+    "evolutionChain": [
+      "527",
+      "528"
+    ]
+  },
+  {
+    "id": "528",
+    "name": "swoobat",
+    "type": "psychic, flying",
+    "height": "0.9 m",
+    "weight": "10.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/528.png",
+    "evolutionChain": [
+      "527",
+      "528"
+    ]
+  },
+  {
+    "id": "529",
+    "name": "drilbur",
+    "type": "ground",
+    "height": "0.3 m",
+    "weight": "8.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/529.png",
+    "evolutionChain": [
+      "529",
+      "530"
+    ]
+  },
+  {
+    "id": "530",
+    "name": "excadrill",
+    "type": "ground, steel",
+    "height": "0.7 m",
+    "weight": "40.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/530.png",
+    "evolutionChain": [
+      "529",
+      "530"
+    ]
+  },
+  {
+    "id": "531",
+    "name": "audino",
+    "type": "normal",
+    "height": "1.1 m",
+    "weight": "31.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/531.png",
+    "evolutionChain": [
+      "531"
+    ]
+  },
+  {
+    "id": "532",
+    "name": "timburr",
+    "type": "fighting",
+    "height": "0.6 m",
+    "weight": "12.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/532.png",
+    "evolutionChain": [
+      "532",
+      "533",
+      "534"
+    ]
+  },
+  {
+    "id": "533",
+    "name": "gurdurr",
+    "type": "fighting",
+    "height": "1.2 m",
+    "weight": "40.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/533.png",
+    "evolutionChain": [
+      "532",
+      "533",
+      "534"
+    ]
+  },
+  {
+    "id": "534",
+    "name": "conkeldurr",
+    "type": "fighting",
+    "height": "1.4 m",
+    "weight": "87.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/534.png",
+    "evolutionChain": [
+      "532",
+      "533",
+      "534"
+    ]
+  },
+  {
+    "id": "535",
+    "name": "tympole",
+    "type": "water",
+    "height": "0.5 m",
+    "weight": "4.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/535.png",
+    "evolutionChain": [
+      "535",
+      "536",
+      "537"
+    ]
+  },
+  {
+    "id": "536",
+    "name": "palpitoad",
+    "type": "water, ground",
+    "height": "0.8 m",
+    "weight": "17.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/536.png",
+    "evolutionChain": [
+      "535",
+      "536",
+      "537"
+    ]
+  },
+  {
+    "id": "537",
+    "name": "seismitoad",
+    "type": "water, ground",
+    "height": "1.5 m",
+    "weight": "62.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/537.png",
+    "evolutionChain": [
+      "535",
+      "536",
+      "537"
+    ]
+  },
+  {
+    "id": "538",
+    "name": "throh",
+    "type": "fighting",
+    "height": "1.3 m",
+    "weight": "55.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/538.png",
+    "evolutionChain": [
+      "538"
+    ]
+  },
+  {
+    "id": "539",
+    "name": "sawk",
+    "type": "fighting",
+    "height": "1.4 m",
+    "weight": "51.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/539.png",
+    "evolutionChain": [
+      "539"
+    ]
+  },
+  {
+    "id": "540",
+    "name": "sewaddle",
+    "type": "bug, grass",
+    "height": "0.3 m",
+    "weight": "2.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/540.png",
+    "evolutionChain": [
+      "540",
+      "541",
+      "542"
+    ]
+  },
+  {
+    "id": "541",
+    "name": "swadloon",
+    "type": "bug, grass",
+    "height": "0.5 m",
+    "weight": "7.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/541.png",
+    "evolutionChain": [
+      "540",
+      "541",
+      "542"
+    ]
+  },
+  {
+    "id": "542",
+    "name": "leavanny",
+    "type": "bug, grass",
+    "height": "1.2 m",
+    "weight": "20.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/542.png",
+    "evolutionChain": [
+      "540",
+      "541",
+      "542"
+    ]
+  },
+  {
+    "id": "543",
+    "name": "venipede",
+    "type": "bug, poison",
+    "height": "0.4 m",
+    "weight": "5.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/543.png",
+    "evolutionChain": [
+      "543",
+      "544",
+      "545"
+    ]
+  },
+  {
+    "id": "544",
+    "name": "whirlipede",
+    "type": "bug, poison",
+    "height": "1.2 m",
+    "weight": "58.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/544.png",
+    "evolutionChain": [
+      "543",
+      "544",
+      "545"
+    ]
+  },
+  {
+    "id": "545",
+    "name": "scolipede",
+    "type": "bug, poison",
+    "height": "2.5 m",
+    "weight": "200.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/545.png",
+    "evolutionChain": [
+      "543",
+      "544",
+      "545"
+    ]
+  },
+  {
+    "id": "546",
+    "name": "cottonee",
+    "type": "grass, fairy",
+    "height": "0.3 m",
+    "weight": "0.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/546.png",
+    "evolutionChain": [
+      "546",
+      "547"
+    ]
+  },
+  {
+    "id": "547",
+    "name": "whimsicott",
+    "type": "grass, fairy",
+    "height": "0.7 m",
+    "weight": "6.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/547.png",
+    "evolutionChain": [
+      "546",
+      "547"
+    ]
+  },
+  {
+    "id": "548",
+    "name": "petilil",
+    "type": "grass",
+    "height": "0.5 m",
+    "weight": "6.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/548.png",
+    "evolutionChain": [
+      "548",
+      "549"
+    ]
+  },
+  {
+    "id": "549",
+    "name": "lilligant",
+    "type": "grass",
+    "height": "1.1 m",
+    "weight": "16.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/549.png",
+    "evolutionChain": [
+      "548",
+      "549"
+    ]
+  },
+  {
+    "id": "550",
+    "name": "basculin-red-striped",
+    "type": "water",
+    "height": "1.0 m",
+    "weight": "18.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/550.png",
+    "evolutionChain": [
+      "550"
+    ]
+  },
+  {
+    "id": "551",
+    "name": "sandile",
+    "type": "ground, dark",
+    "height": "0.7 m",
+    "weight": "15.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/551.png",
+    "evolutionChain": [
+      "551",
+      "552",
+      "553"
+    ]
+  },
+  {
+    "id": "552",
+    "name": "krokorok",
+    "type": "ground, dark",
+    "height": "1.0 m",
+    "weight": "33.4 kg",
+    "description": "No description available.",
+    "sprite": "sprites/552.png",
+    "evolutionChain": [
+      "551",
+      "552",
+      "553"
+    ]
+  },
+  {
+    "id": "553",
+    "name": "krookodile",
+    "type": "ground, dark",
+    "height": "1.5 m",
+    "weight": "96.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/553.png",
+    "evolutionChain": [
+      "551",
+      "552",
+      "553"
+    ]
+  },
+  {
+    "id": "554",
+    "name": "darumaka",
+    "type": "fire",
+    "height": "0.6 m",
+    "weight": "37.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/554.png",
+    "evolutionChain": [
+      "554",
+      "555"
+    ]
+  },
+  {
+    "id": "555",
+    "name": "darmanitan-standard",
+    "type": "fire",
+    "height": "1.3 m",
+    "weight": "92.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/555.png",
+    "evolutionChain": [
+      "554",
+      "555"
+    ]
+  },
+  {
+    "id": "556",
+    "name": "maractus",
+    "type": "grass",
+    "height": "1.0 m",
+    "weight": "28.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/556.png",
+    "evolutionChain": [
+      "556"
+    ]
+  },
+  {
+    "id": "557",
+    "name": "dwebble",
+    "type": "bug, rock",
+    "height": "0.3 m",
+    "weight": "14.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/557.png",
+    "evolutionChain": [
+      "557",
+      "558"
+    ]
+  },
+  {
+    "id": "558",
+    "name": "crustle",
+    "type": "bug, rock",
+    "height": "1.4 m",
+    "weight": "200.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/558.png",
+    "evolutionChain": [
+      "557",
+      "558"
+    ]
+  },
+  {
+    "id": "559",
+    "name": "scraggy",
+    "type": "dark, fighting",
+    "height": "0.6 m",
+    "weight": "11.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/559.png",
+    "evolutionChain": [
+      "559",
+      "560"
+    ]
+  },
+  {
+    "id": "560",
+    "name": "scrafty",
+    "type": "dark, fighting",
+    "height": "1.1 m",
+    "weight": "30.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/560.png",
+    "evolutionChain": [
+      "559",
+      "560"
+    ]
+  },
+  {
+    "id": "561",
+    "name": "sigilyph",
+    "type": "psychic, flying",
+    "height": "1.4 m",
+    "weight": "14.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/561.png",
+    "evolutionChain": [
+      "561"
+    ]
+  },
+  {
+    "id": "562",
+    "name": "yamask",
+    "type": "ghost",
+    "height": "0.5 m",
+    "weight": "1.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/562.png",
+    "evolutionChain": [
+      "562",
+      "563"
+    ]
+  },
+  {
+    "id": "563",
+    "name": "cofagrigus",
+    "type": "ghost",
+    "height": "1.7 m",
+    "weight": "76.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/563.png",
+    "evolutionChain": [
+      "562",
+      "563"
+    ]
+  },
+  {
+    "id": "564",
+    "name": "tirtouga",
+    "type": "water, rock",
+    "height": "0.7 m",
+    "weight": "16.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/564.png",
+    "evolutionChain": [
+      "564",
+      "565"
+    ]
+  },
+  {
+    "id": "565",
+    "name": "carracosta",
+    "type": "water, rock",
+    "height": "1.2 m",
+    "weight": "81.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/565.png",
+    "evolutionChain": [
+      "564",
+      "565"
+    ]
+  },
+  {
+    "id": "566",
+    "name": "archen",
+    "type": "rock, flying",
+    "height": "0.5 m",
+    "weight": "9.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/566.png",
+    "evolutionChain": [
+      "566",
+      "567"
+    ]
+  },
+  {
+    "id": "567",
+    "name": "archeops",
+    "type": "rock, flying",
+    "height": "1.4 m",
+    "weight": "32.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/567.png",
+    "evolutionChain": [
+      "566",
+      "567"
+    ]
+  },
+  {
+    "id": "568",
+    "name": "trubbish",
+    "type": "poison",
+    "height": "0.6 m",
+    "weight": "31.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/568.png",
+    "evolutionChain": [
+      "568",
+      "569"
+    ]
+  },
+  {
+    "id": "569",
+    "name": "garbodor",
+    "type": "poison",
+    "height": "1.9 m",
+    "weight": "107.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/569.png",
+    "evolutionChain": [
+      "568",
+      "569"
+    ]
+  },
+  {
+    "id": "570",
+    "name": "zorua",
+    "type": "dark",
+    "height": "0.7 m",
+    "weight": "12.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/570.png",
+    "evolutionChain": [
+      "570",
+      "571"
+    ]
+  },
+  {
+    "id": "571",
+    "name": "zoroark",
+    "type": "dark",
+    "height": "1.6 m",
+    "weight": "81.1 kg",
+    "description": "No description available.",
+    "sprite": "sprites/571.png",
+    "evolutionChain": [
+      "570",
+      "571"
+    ]
+  },
+  {
+    "id": "572",
+    "name": "minccino",
+    "type": "normal",
+    "height": "0.4 m",
+    "weight": "5.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/572.png",
+    "evolutionChain": [
+      "572",
+      "573"
+    ]
+  },
+  {
+    "id": "573",
+    "name": "cinccino",
+    "type": "normal",
+    "height": "0.5 m",
+    "weight": "7.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/573.png",
+    "evolutionChain": [
+      "572",
+      "573"
+    ]
+  },
+  {
+    "id": "574",
+    "name": "gothita",
+    "type": "psychic",
+    "height": "0.4 m",
+    "weight": "5.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/574.png",
+    "evolutionChain": [
+      "574",
+      "575",
+      "576"
+    ]
+  },
+  {
+    "id": "575",
+    "name": "gothorita",
+    "type": "psychic",
+    "height": "0.7 m",
+    "weight": "18.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/575.png",
+    "evolutionChain": [
+      "574",
+      "575",
+      "576"
+    ]
+  },
+  {
+    "id": "576",
+    "name": "gothitelle",
+    "type": "psychic",
+    "height": "1.5 m",
+    "weight": "44.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/576.png",
+    "evolutionChain": [
+      "574",
+      "575",
+      "576"
+    ]
+  },
+  {
+    "id": "577",
+    "name": "solosis",
+    "type": "psychic",
+    "height": "0.3 m",
+    "weight": "1.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/577.png",
+    "evolutionChain": [
+      "577",
+      "578",
+      "579"
+    ]
+  },
+  {
+    "id": "578",
+    "name": "duosion",
+    "type": "psychic",
+    "height": "0.6 m",
+    "weight": "8.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/578.png",
+    "evolutionChain": [
+      "577",
+      "578",
+      "579"
+    ]
+  },
+  {
+    "id": "579",
+    "name": "reuniclus",
+    "type": "psychic",
+    "height": "1.0 m",
+    "weight": "20.1 kg",
+    "description": "No description available.",
+    "sprite": "sprites/579.png",
+    "evolutionChain": [
+      "577",
+      "578",
+      "579"
+    ]
+  },
+  {
+    "id": "580",
+    "name": "ducklett",
+    "type": "water, flying",
+    "height": "0.5 m",
+    "weight": "5.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/580.png",
+    "evolutionChain": [
+      "580",
+      "581"
+    ]
+  },
+  {
+    "id": "581",
+    "name": "swanna",
+    "type": "water, flying",
+    "height": "1.3 m",
+    "weight": "24.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/581.png",
+    "evolutionChain": [
+      "580",
+      "581"
+    ]
+  },
+  {
+    "id": "582",
+    "name": "vanillite",
+    "type": "ice",
+    "height": "0.4 m",
+    "weight": "5.7 kg",
+    "description": "No description available.",
+    "sprite": "sprites/582.png",
+    "evolutionChain": [
+      "582",
+      "583",
+      "584"
+    ]
+  },
+  {
+    "id": "583",
+    "name": "vanillish",
+    "type": "ice",
+    "height": "1.1 m",
+    "weight": "41.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/583.png",
+    "evolutionChain": [
+      "582",
+      "583",
+      "584"
+    ]
+  },
+  {
+    "id": "584",
+    "name": "vanilluxe",
+    "type": "ice",
+    "height": "1.3 m",
+    "weight": "57.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/584.png",
+    "evolutionChain": [
+      "582",
+      "583",
+      "584"
+    ]
+  },
+  {
+    "id": "585",
+    "name": "deerling",
+    "type": "normal, grass",
+    "height": "0.6 m",
+    "weight": "19.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/585.png",
+    "evolutionChain": [
+      "585",
+      "586"
+    ]
+  },
+  {
+    "id": "586",
+    "name": "sawsbuck",
+    "type": "normal, grass",
+    "height": "1.9 m",
+    "weight": "92.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/586.png",
+    "evolutionChain": [
+      "585",
+      "586"
+    ]
+  },
+  {
+    "id": "587",
+    "name": "emolga",
+    "type": "electric, flying",
+    "height": "0.4 m",
+    "weight": "5.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/587.png",
+    "evolutionChain": [
+      "587"
+    ]
+  },
+  {
+    "id": "588",
+    "name": "karrablast",
+    "type": "bug",
+    "height": "0.5 m",
+    "weight": "5.9 kg",
+    "description": "No description available.",
+    "sprite": "sprites/588.png",
+    "evolutionChain": [
+      "588",
+      "589"
+    ]
+  },
+  {
+    "id": "589",
+    "name": "escavalier",
+    "type": "bug, steel",
+    "height": "1.0 m",
+    "weight": "33.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/589.png",
+    "evolutionChain": [
+      "588",
+      "589"
+    ]
+  },
+  {
+    "id": "590",
+    "name": "foongus",
+    "type": "grass, poison",
+    "height": "0.2 m",
+    "weight": "1.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/590.png",
+    "evolutionChain": [
+      "590",
+      "591"
+    ]
+  },
+  {
+    "id": "591",
+    "name": "amoonguss",
+    "type": "grass, poison",
+    "height": "0.6 m",
+    "weight": "10.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/591.png",
+    "evolutionChain": [
+      "590",
+      "591"
+    ]
+  },
+  {
+    "id": "592",
+    "name": "frillish-male",
+    "type": "water, ghost",
+    "height": "1.2 m",
+    "weight": "33.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/592.png",
+    "evolutionChain": [
+      "592",
+      "593"
+    ]
+  },
+  {
+    "id": "593",
+    "name": "jellicent-male",
+    "type": "water, ghost",
+    "height": "2.2 m",
+    "weight": "135.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/593.png",
+    "evolutionChain": [
+      "592",
+      "593"
+    ]
+  },
+  {
+    "id": "594",
+    "name": "alomomola",
+    "type": "water",
+    "height": "1.2 m",
+    "weight": "31.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/594.png",
+    "evolutionChain": [
+      "594"
+    ]
+  },
+  {
+    "id": "595",
+    "name": "joltik",
+    "type": "bug, electric",
+    "height": "0.1 m",
+    "weight": "0.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/595.png",
+    "evolutionChain": [
+      "595",
+      "596"
+    ]
+  },
+  {
+    "id": "596",
+    "name": "galvantula",
+    "type": "bug, electric",
+    "height": "0.8 m",
+    "weight": "14.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/596.png",
+    "evolutionChain": [
+      "595",
+      "596"
+    ]
+  },
+  {
+    "id": "597",
+    "name": "ferroseed",
+    "type": "grass, steel",
+    "height": "0.6 m",
+    "weight": "18.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/597.png",
+    "evolutionChain": [
+      "597",
+      "598"
+    ]
+  },
+  {
+    "id": "598",
+    "name": "ferrothorn",
+    "type": "grass, steel",
+    "height": "1.0 m",
+    "weight": "110.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/598.png",
+    "evolutionChain": [
+      "597",
+      "598"
+    ]
+  },
+  {
+    "id": "599",
+    "name": "klink",
+    "type": "steel",
+    "height": "0.3 m",
+    "weight": "21.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/599.png",
+    "evolutionChain": [
+      "599",
+      "600",
+      "601"
+    ]
+  },
+  {
+    "id": "600",
+    "name": "klang",
+    "type": "steel",
+    "height": "0.6 m",
+    "weight": "51.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/600.png",
+    "evolutionChain": [
+      "599",
+      "600",
+      "601"
+    ]
+  },
+  {
+    "id": "601",
+    "name": "klinklang",
+    "type": "steel",
+    "height": "0.6 m",
+    "weight": "81.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/601.png",
+    "evolutionChain": [
+      "599",
+      "600",
+      "601"
+    ]
+  },
+  {
+    "id": "602",
+    "name": "tynamo",
+    "type": "electric",
+    "height": "0.2 m",
+    "weight": "0.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/602.png",
+    "evolutionChain": [
+      "602",
+      "603",
+      "604"
+    ]
+  },
+  {
+    "id": "603",
+    "name": "eelektrik",
+    "type": "electric",
+    "height": "1.2 m",
+    "weight": "22.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/603.png",
+    "evolutionChain": [
+      "602",
+      "603",
+      "604"
+    ]
+  },
+  {
+    "id": "604",
+    "name": "eelektross",
+    "type": "electric",
+    "height": "2.1 m",
+    "weight": "80.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/604.png",
+    "evolutionChain": [
+      "602",
+      "603",
+      "604"
+    ]
+  },
+  {
+    "id": "605",
+    "name": "elgyem",
+    "type": "psychic",
+    "height": "0.5 m",
+    "weight": "9.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/605.png",
+    "evolutionChain": [
+      "605",
+      "606"
+    ]
+  },
+  {
+    "id": "606",
+    "name": "beheeyem",
+    "type": "psychic",
+    "height": "1.0 m",
+    "weight": "34.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/606.png",
+    "evolutionChain": [
+      "605",
+      "606"
+    ]
+  },
+  {
+    "id": "607",
+    "name": "litwick",
+    "type": "ghost, fire",
+    "height": "0.3 m",
+    "weight": "3.1 kg",
+    "description": "No description available.",
+    "sprite": "sprites/607.png",
+    "evolutionChain": [
+      "607",
+      "608",
+      "609"
+    ]
+  },
+  {
+    "id": "608",
+    "name": "lampent",
+    "type": "ghost, fire",
+    "height": "0.6 m",
+    "weight": "13.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/608.png",
+    "evolutionChain": [
+      "607",
+      "608",
+      "609"
+    ]
+  },
+  {
+    "id": "609",
+    "name": "chandelure",
+    "type": "ghost, fire",
+    "height": "1.0 m",
+    "weight": "34.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/609.png",
+    "evolutionChain": [
+      "607",
+      "608",
+      "609"
+    ]
+  },
+  {
+    "id": "610",
+    "name": "axew",
+    "type": "dragon",
+    "height": "0.6 m",
+    "weight": "18.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/610.png",
+    "evolutionChain": [
+      "610",
+      "611",
+      "612"
+    ]
+  },
+  {
+    "id": "611",
+    "name": "fraxure",
+    "type": "dragon",
+    "height": "1.0 m",
+    "weight": "36.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/611.png",
+    "evolutionChain": [
+      "610",
+      "611",
+      "612"
+    ]
+  },
+  {
+    "id": "612",
+    "name": "haxorus",
+    "type": "dragon",
+    "height": "1.8 m",
+    "weight": "105.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/612.png",
+    "evolutionChain": [
+      "610",
+      "611",
+      "612"
+    ]
+  },
+  {
+    "id": "613",
+    "name": "cubchoo",
+    "type": "ice",
+    "height": "0.5 m",
+    "weight": "8.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/613.png",
+    "evolutionChain": [
+      "613",
+      "614"
+    ]
+  },
+  {
+    "id": "614",
+    "name": "beartic",
+    "type": "ice",
+    "height": "2.6 m",
+    "weight": "260.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/614.png",
+    "evolutionChain": [
+      "613",
+      "614"
+    ]
+  },
+  {
+    "id": "615",
+    "name": "cryogonal",
+    "type": "ice",
+    "height": "1.1 m",
+    "weight": "148.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/615.png",
+    "evolutionChain": [
+      "615"
+    ]
+  },
+  {
+    "id": "616",
+    "name": "shelmet",
+    "type": "bug",
+    "height": "0.4 m",
+    "weight": "7.7 kg",
+    "description": "No description available.",
+    "sprite": "sprites/616.png",
+    "evolutionChain": [
+      "616",
+      "617"
+    ]
+  },
+  {
+    "id": "617",
+    "name": "accelgor",
+    "type": "bug",
+    "height": "0.8 m",
+    "weight": "25.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/617.png",
+    "evolutionChain": [
+      "616",
+      "617"
+    ]
+  },
+  {
+    "id": "618",
+    "name": "stunfisk",
+    "type": "ground, electric",
+    "height": "0.7 m",
+    "weight": "11.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/618.png",
+    "evolutionChain": [
+      "618"
+    ]
+  },
+  {
+    "id": "619",
+    "name": "mienfoo",
+    "type": "fighting",
+    "height": "0.9 m",
+    "weight": "20.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/619.png",
+    "evolutionChain": [
+      "619",
+      "620"
+    ]
+  },
+  {
+    "id": "620",
+    "name": "mienshao",
+    "type": "fighting",
+    "height": "1.4 m",
+    "weight": "35.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/620.png",
+    "evolutionChain": [
+      "619",
+      "620"
+    ]
+  },
+  {
+    "id": "621",
+    "name": "druddigon",
+    "type": "dragon",
+    "height": "1.6 m",
+    "weight": "139.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/621.png",
+    "evolutionChain": [
+      "621"
+    ]
+  },
+  {
+    "id": "622",
+    "name": "golett",
+    "type": "ground, ghost",
+    "height": "1.0 m",
+    "weight": "92.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/622.png",
+    "evolutionChain": [
+      "622",
+      "623"
+    ]
+  },
+  {
+    "id": "623",
+    "name": "golurk",
+    "type": "ground, ghost",
+    "height": "2.8 m",
+    "weight": "330.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/623.png",
+    "evolutionChain": [
+      "622",
+      "623"
+    ]
+  },
+  {
+    "id": "624",
+    "name": "pawniard",
+    "type": "dark, steel",
+    "height": "0.5 m",
+    "weight": "10.2 kg",
+    "description": "No description available.",
+    "sprite": "sprites/624.png",
+    "evolutionChain": [
+      "624",
+      "625"
+    ]
+  },
+  {
+    "id": "625",
+    "name": "bisharp",
+    "type": "dark, steel",
+    "height": "1.6 m",
+    "weight": "70.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/625.png",
+    "evolutionChain": [
+      "624",
+      "625"
+    ]
+  },
+  {
+    "id": "626",
+    "name": "bouffalant",
+    "type": "normal",
+    "height": "1.6 m",
+    "weight": "94.6 kg",
+    "description": "No description available.",
+    "sprite": "sprites/626.png",
+    "evolutionChain": [
+      "626"
+    ]
+  },
+  {
+    "id": "627",
+    "name": "rufflet",
+    "type": "normal, flying",
+    "height": "0.5 m",
+    "weight": "10.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/627.png",
+    "evolutionChain": [
+      "627",
+      "628"
+    ]
+  },
+  {
+    "id": "628",
+    "name": "braviary",
+    "type": "normal, flying",
+    "height": "1.5 m",
+    "weight": "41.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/628.png",
+    "evolutionChain": [
+      "627",
+      "628"
+    ]
+  },
+  {
+    "id": "629",
+    "name": "vullaby",
+    "type": "dark, flying",
+    "height": "0.5 m",
+    "weight": "9.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/629.png",
+    "evolutionChain": [
+      "629",
+      "630"
+    ]
+  },
+  {
+    "id": "630",
+    "name": "mandibuzz",
+    "type": "dark, flying",
+    "height": "1.2 m",
+    "weight": "39.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/630.png",
+    "evolutionChain": [
+      "629",
+      "630"
+    ]
+  },
+  {
+    "id": "631",
+    "name": "heatmor",
+    "type": "fire",
+    "height": "1.4 m",
+    "weight": "58.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/631.png",
+    "evolutionChain": [
+      "631"
+    ]
+  },
+  {
+    "id": "632",
+    "name": "durant",
+    "type": "bug, steel",
+    "height": "0.3 m",
+    "weight": "33.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/632.png",
+    "evolutionChain": [
+      "632"
+    ]
+  },
+  {
+    "id": "633",
+    "name": "deino",
+    "type": "dark, dragon",
+    "height": "0.8 m",
+    "weight": "17.3 kg",
+    "description": "No description available.",
+    "sprite": "sprites/633.png",
+    "evolutionChain": [
+      "633",
+      "634",
+      "635"
+    ]
+  },
+  {
+    "id": "634",
+    "name": "zweilous",
+    "type": "dark, dragon",
+    "height": "1.4 m",
+    "weight": "50.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/634.png",
+    "evolutionChain": [
+      "633",
+      "634",
+      "635"
+    ]
+  },
+  {
+    "id": "635",
+    "name": "hydreigon",
+    "type": "dark, dragon",
+    "height": "1.8 m",
+    "weight": "160.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/635.png",
+    "evolutionChain": [
+      "633",
+      "634",
+      "635"
+    ]
+  },
+  {
+    "id": "636",
+    "name": "larvesta",
+    "type": "bug, fire",
+    "height": "1.1 m",
+    "weight": "28.8 kg",
+    "description": "No description available.",
+    "sprite": "sprites/636.png",
+    "evolutionChain": [
+      "636",
+      "637"
+    ]
+  },
+  {
+    "id": "637",
+    "name": "volcarona",
+    "type": "bug, fire",
+    "height": "1.6 m",
+    "weight": "46.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/637.png",
+    "evolutionChain": [
+      "636",
+      "637"
+    ]
+  },
+  {
+    "id": "638",
+    "name": "cobalion",
+    "type": "steel, fighting",
+    "height": "2.1 m",
+    "weight": "250.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/638.png",
+    "evolutionChain": [
+      "638"
+    ]
+  },
+  {
+    "id": "639",
+    "name": "terrakion",
+    "type": "rock, fighting",
+    "height": "1.9 m",
+    "weight": "260.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/639.png",
+    "evolutionChain": [
+      "639"
+    ]
+  },
+  {
+    "id": "640",
+    "name": "virizion",
+    "type": "grass, fighting",
+    "height": "2.0 m",
+    "weight": "200.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/640.png",
+    "evolutionChain": [
+      "640"
+    ]
+  },
+  {
+    "id": "641",
+    "name": "tornadus-incarnate",
+    "type": "flying",
+    "height": "1.5 m",
+    "weight": "63.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/641.png",
+    "evolutionChain": [
+      "641"
+    ]
+  },
+  {
+    "id": "642",
+    "name": "thundurus-incarnate",
+    "type": "electric, flying",
+    "height": "1.5 m",
+    "weight": "61.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/642.png",
+    "evolutionChain": [
+      "642"
+    ]
+  },
+  {
+    "id": "643",
+    "name": "reshiram",
+    "type": "dragon, fire",
+    "height": "3.2 m",
+    "weight": "330.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/643.png",
+    "evolutionChain": [
+      "643"
+    ]
+  },
+  {
+    "id": "644",
+    "name": "zekrom",
+    "type": "dragon, electric",
+    "height": "2.9 m",
+    "weight": "345.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/644.png",
+    "evolutionChain": [
+      "644"
+    ]
+  },
+  {
+    "id": "645",
+    "name": "landorus-incarnate",
+    "type": "ground, flying",
+    "height": "1.5 m",
+    "weight": "68.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/645.png",
+    "evolutionChain": [
+      "645"
+    ]
+  },
+  {
+    "id": "646",
+    "name": "kyurem",
+    "type": "dragon, ice",
+    "height": "3.0 m",
+    "weight": "325.0 kg",
+    "description": "No description available.",
+    "sprite": "sprites/646.png",
+    "evolutionChain": [
+      "646"
+    ]
+  },
+  {
+    "id": "647",
+    "name": "keldeo-ordinary",
+    "type": "water, fighting",
+    "height": "1.4 m",
+    "weight": "48.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/647.png",
+    "evolutionChain": [
+      "647"
+    ]
+  },
+  {
+    "id": "648",
+    "name": "meloetta-aria",
+    "type": "normal, psychic",
+    "height": "0.6 m",
+    "weight": "6.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/648.png",
+    "evolutionChain": [
+      "648"
+    ]
+  },
+  {
+    "id": "649",
+    "name": "genesect",
+    "type": "bug, steel",
+    "height": "1.5 m",
+    "weight": "82.5 kg",
+    "description": "No description available.",
+    "sprite": "sprites/649.png",
+    "evolutionChain": [
+      "649"
+    ]
+  }
+]
