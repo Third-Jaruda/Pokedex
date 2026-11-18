@@ -143,10 +143,18 @@ function showSinglePokemon(pokemon) {
 }
 
 // Helper function so the evolution card clicks trigger seamlessly
-function selectPokemonById(id) {
-    const targetPokemon = allPokemon.find(p => p.id === id);
+function selectPokemonById(inputID) {
+    // 1. Convert input to a number to strip any existing leading zeros, then pad it back to 3 digits (e.g., 1 or "1" or "001" all become "001")
+    const formattedId = String(Number(inputID)).padStart(3, '0');
+
+    // 2. Find the pokemon matching the standardized ID string
+    const targetPokemon = allPokemon.find(p => p.id === formattedId);
+
     if (targetPokemon) {
         showSinglePokemon(targetPokemon);
+        console.log("Found:", targetPokemon.name);
+    } else {
+        console.warn(`Could not find Pokémon with ID: ${inputID} (searched as ${formattedId})`);
     }
 }
 
