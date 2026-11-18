@@ -136,7 +136,7 @@ function showSinglePokemon(pokemon) {
             <h2>${pokemon.name}</h2>
             <p><strong>Type:</strong> ${formatTypes(pokemon.type)}</p>
             <p><strong>Height:</strong> ${pokemon.height} | <strong>Weight:</strong> ${pokemon.weight}</p>
-            <p style="margin-top: 15px; color: #555; font-size: 0.9rem;"><em>${pokemon.description || 'No description available.'}</em></p>
+            <p style="margin-top: 15px;  font-size: 0.9rem;"><em>${pokemon.description || 'No description available.'}</em></p>
             ${evolutionHTML}
         </div>
     `;
