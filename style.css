@@ -83,8 +83,15 @@ header h1 {
     margin-bottom: 15px;
 }
 
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 #search-input {
-    width: 100%;
+    width: auto;
+    flex-grow: 1;
     padding: 10px 15px;
     font-size: 1rem;
     border: 2px solid #ccc;
@@ -96,6 +103,18 @@ header h1 {
 
 #search-input:focus {
     border-color: var(--primary);
+}
+
+#install-button {
+    display: none;
+    margin-left: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #ffcb05;
+    color: #222;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
 }
 
 .checkbox-group {

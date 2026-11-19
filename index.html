@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokédex</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1e1e1e">
 </head>
 <body>
 
@@ -21,8 +23,15 @@
         <!-- RIGHT: Interactive Sortable List (50% Width) -->
         <section class="list-panel">
             <div class="search-container">
-                <input type="text" id="search-input" placeholder="Search Pokémon...">
-                
+                <div class="search-box">
+                    <!-- Your existing search input -->
+                    <input type="text" id="search-input" placeholder="Search Pokémon..." >
+                    
+                    <!-- New Install Button (hidden by default until browser says it's installable) -->
+                    <button id="install-btn" class="install-button">
+                        Install App
+                    </button>
+                </div>
                 <div class="filter-row">
                     <div class="checkbox-group">
                         <label><input type="checkbox" name="search-field" value="number" checked> Number</label>
