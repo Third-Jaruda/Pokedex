@@ -222,4 +222,74 @@ darkModeToggle.addEventListener('change', (e) => {
     }
 });
 
-// THis is a test Change
+// This is for the install function.
+// --- 1. Register Service Worker ---
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then((reg) => {
+        console.log('Service Worker registered!', reg);
+        // Trigger background image caching once SW is ready
+        precacheAllImages();
+      })
+      .catch((err) => console.error('Service Worker registration failed:', err));
+  });
+}
+
+// --- 2. Handle Install Button ---
+let deferredPrompt;
+const installBtn = document.getElementById('install-btn');
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  // Prevent the mini-infobar from appearing on mobile
+  e.preventDefault();
+  // Stash the event so it can be triggered later
+  deferredPrompt = e;
+  // Reveal the install button
+  installBtn.style.display = 'inline-block';
+});
+
+installBtn.addEventListener('click', async () => {
+  if (!deferredPrompt) return;
+  
+  // Show the install prompt
+  deferredPrompt.prompt();
+  
+  // Wait for the user to respond to the prompt
+  const { outcome } = await deferredPrompt.userChoice;
+  console.log(`User response to install prompt: ${outcome}`);
+  
+  // Clear the saved prompt since it can't be used again
+  deferredPrompt = null;
+  // Hide the install button
+  installBtn.style.display = 'none';
+});
+
+// Hide button if app is successfully installed
+window.addEventListener('appinstalled', () => {
+  installBtn.style.display = 'none';
+  deferredPrompt = null;
+  console.log('Pokédex PWA was installed!');
+});
+
+// --- 3. Background Pre-cache for All 649 Images ---
+async function precacheAllImages() {
+  // Wait 3 seconds so it doesn't slow down initial page load
+  await new Promise(resolve => setTimeout(resolve, 3000));
+  
+  const cache = await caches.open('pokedex-offline-v1');
+  
+  // Grab all <img> elements currently rendered in your table
+  const images = document.querySelectorAll('table img');
+  
+  for (const img of images) {
+    if (img.src) {
+      const cached = await cache.match(img.src);
+      if (!cached) {
+        // Fetch in background; sw.js will automatically intercept and cache it
+        fetch(img.src, { mode: 'no-cors' }).catch(() => {});
+      }
+    }
+  }
+  console.log('Background image caching complete!');
+}
