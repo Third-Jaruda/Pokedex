@@ -1,12 +1,12 @@
-const CACHE_NAME = 'pokedex-offline-v3';
+const CACHE_NAME = 'pokedex-offline-v5';
 
 const CORE_ASSETS = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/app.js',
-  '/manifest.json',
-  '/pokemon.json'
+  './',
+  './index.html',
+  './style.css',
+  './app.js',
+  './manifest.json',
+  './pokemon.json'
 ];
 
 // 1. Install Event: Cache core files and activate immediately
