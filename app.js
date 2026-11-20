@@ -1,3 +1,13 @@
+/**
+ * Pokédex Application Logic
+ *
+ * Handles data fetching, client-side searching, sorting, UI rendering,
+ * preference persistence (localStorage), PWA installation, and Service Worker registration.
+ */
+
+// =============================================================================
+// 1. DOM ELEMENT REFERENCES
+// =============================================================================
 const searchInput = document.getElementById('search-input');
 const tableBody = document.getElementById('table-body');
 const infoPanel = document.getElementById('info-panel');
@@ -6,12 +16,16 @@ const headers = document.querySelectorAll('th[data-sort]');
 const darkModeToggle = document.getElementById('dark-mode-toggle');
 const installBtn = document.getElementById('install-btn');
 
-// Restore Saved Preferences (Theme & Search Filters)
+// =============================================================================
+// 2. USER PREFERENCES (LOCALSTORAGE INITIALIZATION)
+// =============================================================================
+// Restore theme preference (defaults to dark mode if no preference has been saved yet)
 const savedDarkMode = localStorage.getItem('pokedex-dark-mode');
 const isDarkMode = savedDarkMode !== null ? savedDarkMode === 'true' : true;
 document.body.classList.toggle('dark-theme', isDarkMode);
 darkModeToggle.checked = isDarkMode;
 
+// Restore saved search filter checkbox preferences
 const savedSearchFields = localStorage.getItem('pokedex-search-fields');
 if (savedSearchFields) {
     try {
@@ -24,11 +38,17 @@ if (savedSearchFields) {
     }
 }
 
+// =============================================================================
+// 3. APPLICATION STATE & CONSTANTS
+// =============================================================================
 let allPokemon = [];
 let currentSortColumn = 'id';
 let sortDirection = 1; // 1 for ascending, -1 for descending
-let deferredPrompt;
+let deferredPrompt;    // Stashes the beforeinstallprompt event for PWA installation
 
+/**
+ * Elemental type color mapping for styling badge tags
+ */
 const typeColors = {
     normal: '#A8A878',
     fire: '#F08030',
@@ -49,15 +69,26 @@ const typeColors = {
     fairy: '#EE99AC'
 };
 
+/**
+ * Converts a comma-separated type string (e.g. "grass, poison") into HTML badges
+ * @param {string} typeString - Comma-separated type names
+ * @returns {string} HTML markup string containing colored type badges
+ */
 function formatTypes(typeString) {
     return typeString.split(',').map(t => {
-        const type = t.trim();
+        const type = t.trim().toLowerCase();
         const color = typeColors[type] || '#777777';
         return `<span class="type-badge" style="background-color: ${color};">${type}</span>`;
     }).join(' ');
 }
 
-// 1. Fetch Local Data
+// =============================================================================
+// 4. DATA FETCHING & FILTER/SORT LOGIC
+// =============================================================================
+
+/**
+ * Loads the Pokémon dataset from the local JSON file and initiates initial render
+ */
 async function loadLocalPokedex() {
     try {
         const response = await fetch('pokemon.json');
@@ -68,13 +99,16 @@ async function loadLocalPokedex() {
     }
 }
 
-// 2. Filter & Sort Table / Info Panel
+/**
+ * Filters and sorts the Pokémon dataset based on search term, active checkboxes, and sort headers
+ */
 function updateDisplay() {
     const searchTerm = searchInput.value.toLowerCase().trim();
     const activeFields = Array.from(checkboxes)
         .filter(chk => chk.checked)
         .map(chk => chk.value);
 
+    // Filter by selected criteria
     const filtered = allPokemon.filter(pokemon => {
         if (!searchTerm) return true;
 
@@ -87,10 +121,12 @@ function updateDisplay() {
         return match;
     });
 
+    // Sort according to current column and direction
     filtered.sort((a, b) => {
         let valA = a[currentSortColumn];
         let valB = b[currentSortColumn];
 
+        // Strip units for numeric comparisons (e.g., "0.7 m" -> 0.7, "6.9 kg" -> 6.9)
         if (currentSortColumn === 'height' || currentSortColumn === 'weight') {
             valA = parseFloat(valA);
             valB = parseFloat(valB);
@@ -106,7 +142,14 @@ function updateDisplay() {
     renderInfoPanel(filtered);
 }
 
-// 3. Render Table Rows
+// =============================================================================
+// 5. VIEW RENDERING (TABLE & INFO PANEL)
+// =============================================================================
+
+/**
+ * Renders filtered Pokémon rows into the table body using batch innerHTML injection
+ * @param {Array<Object>} pokemonList - Array of Pokémon objects to display
+ */
 function renderTable(pokemonList) {
     tableBody.innerHTML = pokemonList.map(pokemon => {
         const formattedId = String(pokemon.id).padStart(3, '0');
@@ -123,7 +166,10 @@ function renderTable(pokemonList) {
     }).join('');
 }
 
-// 4. Handle Info Panel
+/**
+ * Handles the left details panel visibility: displays single card or placeholder counter
+ * @param {Array<Object>} filteredList - Current list of filtered Pokémon
+ */
 function renderInfoPanel(filteredList) {
     if (filteredList.length === 1) {
         showSinglePokemon(filteredList[0]);
@@ -133,10 +179,15 @@ function renderInfoPanel(filteredList) {
     }
 }
 
+/**
+ * Renders complete details and evolution chain for a single selected Pokémon
+ * @param {Object} pokemon - Target Pokémon object to display
+ */
 function showSinglePokemon(pokemon) {
     infoPanel.classList.remove('hidden');
     const formattedId = String(pokemon.id).padStart(3, '0');
 
+    // Build the evolution chain markup if the Pokémon belongs to an evolution family
     let evolutionHTML = '';
     if (pokemon.evolutionChain && pokemon.evolutionChain.length > 1) {
         const evoCards = pokemon.evolutionChain.map(evoId => {
@@ -176,9 +227,14 @@ function showSinglePokemon(pokemon) {
     `;
 }
 
-// 5. Event Listeners
+// =============================================================================
+// 6. EVENT LISTENERS & USER INTERACTIONS
+// =============================================================================
+
+// Search input listener
 searchInput.addEventListener('input', updateDisplay);
 
+// Search filter checkbox listeners (persists active fields to localStorage)
 checkboxes.forEach(chk => {
     chk.addEventListener('change', () => {
         const activeList = Array.from(checkboxes)
@@ -189,11 +245,12 @@ checkboxes.forEach(chk => {
     });
 });
 
+// Table column header sorting listener
 headers.forEach(header => {
     header.addEventListener('click', () => {
         const column = header.getAttribute('data-sort');
         if (currentSortColumn === column) {
-            sortDirection *= -1;
+            sortDirection *= -1; // Toggle sort ascending/descending
         } else {
             currentSortColumn = column;
             sortDirection = 1;
@@ -202,7 +259,7 @@ headers.forEach(header => {
     });
 });
 
-// Event delegation for table rows
+// Event delegation for table row clicks (selects clicked Pokémon)
 tableBody.addEventListener('click', (e) => {
     const row = e.target.closest('tr');
     if (!row) return;
@@ -210,7 +267,7 @@ tableBody.addEventListener('click', (e) => {
     if (pokemon) showSinglePokemon(pokemon);
 });
 
-// Event delegation for evolution cards
+// Event delegation for evolution chain card clicks
 infoPanel.addEventListener('click', (e) => {
     const evoCard = e.target.closest('.evo-card');
     if (!evoCard) return;
@@ -218,14 +275,18 @@ infoPanel.addEventListener('click', (e) => {
     if (pokemon) showSinglePokemon(pokemon);
 });
 
-// Dark Mode Toggle
+// Dark Mode toggle listener (persists choice to localStorage)
 darkModeToggle.addEventListener('change', (e) => {
     const isDark = e.target.checked;
     document.body.classList.toggle('dark-theme', isDark);
     localStorage.setItem('pokedex-dark-mode', isDark);
 });
 
-// Service Worker Registration
+// =============================================================================
+// 7. PWA SERVICE WORKER & INSTALLATION
+// =============================================================================
+
+// Register the Service Worker for offline capability
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
         navigator.serviceWorker.register('./sw.js')
@@ -234,13 +295,14 @@ if ('serviceWorker' in navigator) {
     });
 }
 
-// PWA Install Prompt
+// Intercept browser install prompt and reveal custom "Install App" button
 window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
     deferredPrompt = e;
     installBtn.style.display = 'inline-block';
 });
 
+// Trigger browser install dialog when user clicks the install button
 installBtn.addEventListener('click', async () => {
     if (!deferredPrompt) return;
     deferredPrompt.prompt();
@@ -249,13 +311,17 @@ installBtn.addEventListener('click', async () => {
     installBtn.style.display = 'none';
 });
 
+// Hide install button when app installation is confirmed
 window.addEventListener('appinstalled', () => {
     installBtn.style.display = 'none';
     deferredPrompt = null;
 });
 
-// Background Pre-cache for Pokémon Sprites
+/**
+ * Background non-blocking pre-cache for Pokémon sprite images
+ */
 async function precacheAllImages() {
+    // Delay execution so it does not compete with initial page load bandwidth
     await new Promise(resolve => setTimeout(resolve, 3000));
     try {
         const cache = await caches.open('pokedex-offline-v5');
@@ -272,5 +338,7 @@ async function precacheAllImages() {
     }
 }
 
-// Initialize
+// =============================================================================
+// 8. INITIALIZATION
+// =============================================================================
 loadLocalPokedex();

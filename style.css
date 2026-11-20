@@ -1,3 +1,11 @@
+/* ==========================================================================
+   POKÉDEX STYLESHEET
+   Layout, theme custom properties, typography, components, and animations.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. CSS VARIABLES & THEMES
+   -------------------------------------------------------------------------- */
 :root {
     --bg-color: #f5f5f7;
     --card-bg: #ffffff;
@@ -10,6 +18,7 @@
     --row-hover: #f8f9fa;
 }
 
+/* Dark Theme Variables */
 body.dark-theme {
     --bg-color: #282828;
     --card-bg: #2d2d2d;
@@ -22,6 +31,9 @@ body.dark-theme {
     --row-hover: #383838;
 }
 
+/* --------------------------------------------------------------------------
+   2. BASE & GLOBAL STYLES
+   -------------------------------------------------------------------------- */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--bg-color);
@@ -33,7 +45,9 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
-/* Split Layout */
+/* --------------------------------------------------------------------------
+   3. LAYOUT (SPLIT PANEL)
+   -------------------------------------------------------------------------- */
 .pokedex-layout {
     display: flex;
     gap: 20px;
@@ -42,7 +56,9 @@ body {
     box-sizing: border-box;
 }
 
-/* Left Panel */
+/* --------------------------------------------------------------------------
+   4. LEFT PANEL (POKÉMON DETAILS)
+   -------------------------------------------------------------------------- */
 .info-panel {
     flex: 2;
     background: var(--card-bg);
@@ -59,6 +75,7 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
+/* Placeholder state when no single Pokémon is active */
 .info-panel.hidden {
     border: 2px dashed var(--border-color);
     color: #888;
@@ -72,6 +89,7 @@ body {
 .pokemon-details img {
     width: 180px;
     height: 180px;
+    object-fit: contain;
 }
 
 .pokemon-details h2 {
@@ -84,7 +102,9 @@ body {
     font-size: 0.9rem;
 }
 
-/* Right Panel */
+/* --------------------------------------------------------------------------
+   5. RIGHT PANEL (SEARCH, CONTROLS & TABLE)
+   -------------------------------------------------------------------------- */
 .list-panel {
     flex: 4;
     background: var(--card-bg);
@@ -126,6 +146,7 @@ body {
     border-color: var(--primary);
 }
 
+/* PWA Install Button */
 .install-button {
     display: none;
     height: 42px;
@@ -146,7 +167,9 @@ body {
     background-color: #e6b800;
 }
 
-/* Filter Row */
+/* --------------------------------------------------------------------------
+   6. FILTER CONTROLS & SLIDER TOGGLE SWITCHES
+   -------------------------------------------------------------------------- */
 .filter-row {
     display: flex;
     justify-content: space-between;
@@ -162,7 +185,7 @@ body {
     gap: 15px;
 }
 
-/* Slider Toggle Switch */
+/* Custom CSS-Only Slider Toggle Switch */
 .toggle-label {
     display: inline-flex;
     align-items: center;
@@ -173,6 +196,7 @@ body {
     color: var(--text-color);
 }
 
+/* Visually hide native checkbox while preserving accessibility */
 .toggle-label input[type="checkbox"] {
     position: absolute;
     opacity: 0;
@@ -182,6 +206,7 @@ body {
     pointer-events: none;
 }
 
+/* The slider pill track */
 .toggle-label .slider {
     position: relative;
     display: inline-block;
@@ -193,6 +218,7 @@ body {
     flex-shrink: 0;
 }
 
+/* The circular slider knob */
 .toggle-label .slider::before {
     content: "";
     position: absolute;
@@ -206,6 +232,7 @@ body {
     transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), width 0.15s ease;
 }
 
+/* Active checked state */
 .toggle-label input[type="checkbox"]:checked + .slider {
     background-color: var(--primary);
 }
@@ -214,15 +241,19 @@ body {
     transform: translateX(16px);
 }
 
+/* Tactile press response */
 .toggle-label:active .slider::before {
     width: 17px;
 }
 
+/* Keyboard focus accessibility outline */
 .toggle-label input[type="checkbox"]:focus-visible + .slider {
     box-shadow: 0 0 0 2px var(--card-bg), 0 0 0 4px var(--primary);
 }
 
-/* Table */
+/* --------------------------------------------------------------------------
+   7. POKÉMON DATA TABLE
+   -------------------------------------------------------------------------- */
 .table-container {
     flex: 1;
     overflow-y: auto;
@@ -279,7 +310,9 @@ tbody tr:hover {
     text-transform: capitalize;
 }
 
-/* Type Badges */
+/* --------------------------------------------------------------------------
+   8. BADGES & EVOLUTION CARDS
+   -------------------------------------------------------------------------- */
 .type-badge {
     display: inline-block;
     padding: 4px 10px;
@@ -292,7 +325,6 @@ tbody tr:hover {
     margin: 2px;
 }
 
-/* Evolution Chain */
 .evolution-section {
     margin-top: 20px;
     border-top: 1px solid var(--border-color);
@@ -358,7 +390,9 @@ tbody tr:hover {
     text-overflow: ellipsis;
 }
 
-/* Custom Scrollbar */
+/* --------------------------------------------------------------------------
+   9. SCROLLBARS & RESPONSIVE LAYOUT
+   -------------------------------------------------------------------------- */
 .table-container::-webkit-scrollbar,
 .info-panel::-webkit-scrollbar {
     width: 8px;
@@ -381,7 +415,7 @@ tbody tr:hover {
     background-color: var(--primary);
 }
 
-/* Responsive Layout */
+/* Responsive breakpoint for tablets and mobile devices */
 @media (max-width: 900px) {
     body {
         height: auto;
@@ -397,6 +431,7 @@ tbody tr:hover {
         flex: none;
         height: auto;
         min-height: 300px;
+        padding: 40px 20px 20px 20px;
     }
 
     .list-panel {

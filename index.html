@@ -4,25 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokédex</title>
+    
+    <!-- Core Stylesheets & Progressive Web App Manifest -->
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#1e1e1e">
 </head>
 <body>
 
+    <!-- Main Viewport Layout: Two-Column Split Screen -->
     <div class="pokedex-layout">
-        <!-- Left: Selected Pokémon Detailed View -->
+        
+        <!-- Left Panel: Detailed view of the selected Pokémon or search summary -->
         <section id="info-panel" class="info-panel hidden">
             <h2>Select or search for a single Pokémon</h2>
         </section>
 
-        <!-- Right: Interactive Sortable List -->
+        <!-- Right Panel: Search bar, filter toggles, and sortable data table -->
         <section class="list-panel">
+            
+            <!-- Search & Filter Controls -->
             <div class="search-container">
                 <div class="search-box">
                     <input type="text" id="search-input" placeholder="Search Pokémon...">
                     <button id="install-btn" class="install-button">Install App</button>
                 </div>
+                
+                <!-- Filter Row: Search Field Toggles & Theme Switch -->
                 <div class="filter-row">
                     <div class="checkbox-group">
                         <label class="toggle-label">
@@ -47,7 +55,7 @@
                         </label>
                     </div>
 
-                    <!-- Dark Mode Toggle Switch -->
+                    <!-- Theme Preferences Toggle Switch -->
                     <div class="checkbox-group">
                         <label class="toggle-label">
                             <input type="checkbox" id="dark-mode-toggle" checked>
@@ -58,6 +66,7 @@
                 </div>
             </div>
 
+            <!-- Scrollable Pokémon Roster Table -->
             <div class="table-container">
                 <table id="pokemon-table">
                     <thead>
@@ -71,13 +80,14 @@
                         </tr>
                     </thead>
                     <tbody id="table-body">
-                        <!-- Populated via JS -->
+                        <!-- Dynamically populated via app.js -->
                     </tbody>
                 </table>
             </div>
         </section>
     </div>
 
+    <!-- Application Script Entry Point -->
     <script src="app.js"></script>
 </body>
 </html>
