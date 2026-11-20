@@ -228,7 +228,7 @@ darkModeToggle.addEventListener('change', (e) => {
 // Service Worker Registration
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
+        navigator.serviceWorker.register('./sw.js')
             .then(() => precacheAllImages())
             .catch((err) => console.error('Service Worker registration failed:', err));
     });
@@ -258,7 +258,7 @@ window.addEventListener('appinstalled', () => {
 async function precacheAllImages() {
     await new Promise(resolve => setTimeout(resolve, 3000));
     try {
-        const cache = await caches.open('pokedex-offline-v4');
+        const cache = await caches.open('pokedex-offline-v5');
         for (const pokemon of allPokemon) {
             if (pokemon.sprite) {
                 const cached = await cache.match(pokemon.sprite);
