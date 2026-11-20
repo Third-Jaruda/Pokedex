@@ -230,7 +230,7 @@ window.addEventListener('appinstalled', () => {
 async function precacheAllImages() {
     await new Promise(resolve => setTimeout(resolve, 3000));
     try {
-        const cache = await caches.open('pokedex-offline-v1');
+        const cache = await caches.open('pokedex-offline-v3');
         for (const pokemon of allPokemon) {
             if (pokemon.sprite) {
                 const cached = await cache.match(pokemon.sprite);

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pokedex-offline-v1';
+const CACHE_NAME = 'pokedex-offline-v3';
 
 const CORE_ASSETS = [
   '/',
@@ -9,7 +9,7 @@ const CORE_ASSETS = [
   '/pokemon.json'
 ];
 
-// 1. Install Event: Cache core files
+// 1. Install Event: Cache core files and activate immediately
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
@@ -19,7 +19,7 @@ self.addEventListener('install', (event) => {
   self.skipWaiting();
 });
 
-// 2. Activate Event: Clean up old caches
+// 2. Activate Event: Clean up old caches and take control immediately
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((cacheNames) => {
@@ -33,30 +33,46 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
-// 3. Fetch Event: Serve from cache first, fallback to network & cache new items
+// 3. Fetch Event
+// - Images / Sprites: Cache First, fallback to Network
+// - App Shell (HTML, CSS, JS, JSON): Network First, fallback to Cache
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
 
-  event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      if (cachedResponse) {
-        return cachedResponse;
-      }
+  const url = new URL(event.request.url);
+  const isImage = event.request.destination === 'image' || url.pathname.includes('/sprites/') || url.pathname.includes('/splash/');
 
-      return fetch(event.request).then((networkResponse) => {
-        if (!networkResponse || (networkResponse.status !== 200 && networkResponse.type !== 'opaque')) {
-          return networkResponse;
+  if (isImage) {
+    event.respondWith(
+      caches.match(event.request).then((cachedResponse) => {
+        if (cachedResponse) {
+          return cachedResponse;
         }
 
-        const responseToCache = networkResponse.clone();
-        caches.open(CACHE_NAME).then((cache) => {
-          cache.put(event.request, responseToCache);
-        });
-
+        return fetch(event.request).then((networkResponse) => {
+          if (networkResponse && (networkResponse.status === 200 || networkResponse.type === 'opaque')) {
+            const responseToCache = networkResponse.clone();
+            caches.open(CACHE_NAME).then((cache) => {
+              cache.put(event.request, responseToCache);
+            });
+          }
+          return networkResponse;
+        }).catch(() => {});
+      })
+    );
+  } else {
+    event.respondWith(
+      fetch(event.request).then((networkResponse) => {
+        if (networkResponse && networkResponse.status === 200) {
+          const responseToCache = networkResponse.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, responseToCache);
+          });
+        }
         return networkResponse;
       }).catch(() => {
-        // Offline and resource not cached
-      });
-    })
-  );
+        return caches.match(event.request);
+      })
+    );
+  }
 });

@@ -10,10 +10,6 @@
 </head>
 <body>
 
-    <header>
-        <h1>Pokédex</h1>
-    </header>
-
     <div class="pokedex-layout">
         <!-- Left: Selected Pokémon Detailed View -->
         <section id="info-panel" class="info-panel hidden">
@@ -29,17 +25,34 @@
                 </div>
                 <div class="filter-row">
                     <div class="checkbox-group">
-                        <label><input type="checkbox" name="search-field" value="number" checked> Number</label>
-                        <label><input type="checkbox" name="search-field" value="name" checked> Name</label>
-                        <label><input type="checkbox" name="search-field" value="type"> Type</label>
-                        <label><input type="checkbox" name="search-field" value="description"> Description</label>
+                        <label class="toggle-label">
+                            <input type="checkbox" name="search-field" value="number" checked>
+                            <span class="slider"></span>
+                            <span class="toggle-text">Number</span>
+                        </label>
+                        <label class="toggle-label">
+                            <input type="checkbox" name="search-field" value="name" checked>
+                            <span class="slider"></span>
+                            <span class="toggle-text">Name</span>
+                        </label>
+                        <label class="toggle-label">
+                            <input type="checkbox" name="search-field" value="type">
+                            <span class="slider"></span>
+                            <span class="toggle-text">Type</span>
+                        </label>
+                        <label class="toggle-label">
+                            <input type="checkbox" name="search-field" value="description">
+                            <span class="slider"></span>
+                            <span class="toggle-text">Description</span>
+                        </label>
                     </div>
 
                     <!-- Dark Mode Toggle Switch -->
                     <div class="checkbox-group">
-                        <label class="theme-switch">
+                        <label class="toggle-label">
                             <input type="checkbox" id="dark-mode-toggle" checked>
-                            <span>Dark Mode</span>
+                            <span class="slider"></span>
+                            <span class="toggle-text">Dark Mode</span>
                         </label>
                     </div>
                 </div>
