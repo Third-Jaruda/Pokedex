@@ -6,6 +6,24 @@ const headers = document.querySelectorAll('th[data-sort]');
 const darkModeToggle = document.getElementById('dark-mode-toggle');
 const installBtn = document.getElementById('install-btn');
 
+// Restore Saved Preferences (Theme & Search Filters)
+const savedDarkMode = localStorage.getItem('pokedex-dark-mode');
+const isDarkMode = savedDarkMode !== null ? savedDarkMode === 'true' : true;
+document.body.classList.toggle('dark-theme', isDarkMode);
+darkModeToggle.checked = isDarkMode;
+
+const savedSearchFields = localStorage.getItem('pokedex-search-fields');
+if (savedSearchFields) {
+    try {
+        const activeList = JSON.parse(savedSearchFields);
+        checkboxes.forEach(chk => {
+            chk.checked = activeList.includes(chk.value);
+        });
+    } catch (e) {
+        console.warn('Could not parse saved search fields:', e);
+    }
+}
+
 let allPokemon = [];
 let currentSortColumn = 'id';
 let sortDirection = 1; // 1 for ascending, -1 for descending
@@ -160,7 +178,16 @@ function showSinglePokemon(pokemon) {
 
 // 5. Event Listeners
 searchInput.addEventListener('input', updateDisplay);
-checkboxes.forEach(chk => chk.addEventListener('change', updateDisplay));
+
+checkboxes.forEach(chk => {
+    chk.addEventListener('change', () => {
+        const activeList = Array.from(checkboxes)
+            .filter(c => c.checked)
+            .map(c => c.value);
+        localStorage.setItem('pokedex-search-fields', JSON.stringify(activeList));
+        updateDisplay();
+    });
+});
 
 headers.forEach(header => {
     header.addEventListener('click', () => {
@@ -192,9 +219,10 @@ infoPanel.addEventListener('click', (e) => {
 });
 
 // Dark Mode Toggle
-document.body.classList.add('dark-theme');
 darkModeToggle.addEventListener('change', (e) => {
-    document.body.classList.toggle('dark-theme', e.target.checked);
+    const isDark = e.target.checked;
+    document.body.classList.toggle('dark-theme', isDark);
+    localStorage.setItem('pokedex-dark-mode', isDark);
 });
 
 // Service Worker Registration
@@ -230,7 +258,7 @@ window.addEventListener('appinstalled', () => {
 async function precacheAllImages() {
     await new Promise(resolve => setTimeout(resolve, 3000));
     try {
-        const cache = await caches.open('pokedex-offline-v3');
+        const cache = await caches.open('pokedex-offline-v4');
         for (const pokemon of allPokemon) {
             if (pokemon.sprite) {
                 const cached = await cache.match(pokemon.sprite);

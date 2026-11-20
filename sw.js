@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pokedex-offline-v3';
+const CACHE_NAME = 'pokedex-offline-v4';
 
 const CORE_ASSETS = [
   '/',
