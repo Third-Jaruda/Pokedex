@@ -6,7 +6,7 @@
     <title>Pokédex</title>
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#1e1e1e">
+    <meta name="theme-color" content="#1e1e1e">
 </head>
 <body>
 
@@ -15,22 +15,17 @@
     </header>
 
     <div class="pokedex-layout">
-        <!-- LEFT: Selected Pokémon Detailed View (Appears on exact 1-match search) -->
+        <!-- Left: Selected Pokémon Detailed View -->
         <section id="info-panel" class="info-panel hidden">
             <h2>Select or search for a single Pokémon</h2>
         </section>
 
-        <!-- RIGHT: Interactive Sortable List (50% Width) -->
+        <!-- Right: Interactive Sortable List -->
         <section class="list-panel">
             <div class="search-container">
                 <div class="search-box">
-                    <!-- Your existing search input -->
-                    <input type="text" id="search-input" placeholder="Search Pokémon..." >
-                    
-                    <!-- New Install Button (hidden by default until browser says it's installable) -->
-                    <button id="install-btn" class="install-button">
-                        Install App
-                    </button>
+                    <input type="text" id="search-input" placeholder="Search Pokémon...">
+                    <button id="install-btn" class="install-button">Install App</button>
                 </div>
                 <div class="filter-row">
                     <div class="checkbox-group">
@@ -42,7 +37,7 @@
 
                     <!-- Dark Mode Toggle Switch -->
                     <div class="checkbox-group">
-                        <label>
+                        <label class="theme-switch">
                             <input type="checkbox" id="dark-mode-toggle" checked>
                             <span>Dark Mode</span>
                         </label>
@@ -55,7 +50,7 @@
                     <thead>
                         <tr>
                             <th data-sort="id">Dex #</th>
-                            <th style="width: 50px;"> </th>
+                            <th class="col-sprite"> </th>
                             <th data-sort="name">Name</th>
                             <th data-sort="type">Type</th>
                             <th data-sort="height">Height</th>
@@ -63,7 +58,7 @@
                         </tr>
                     </thead>
                     <tbody id="table-body">
-                        <!-- Table rows populated via JS -->
+                        <!-- Populated via JS -->
                     </tbody>
                 </table>
             </div>
